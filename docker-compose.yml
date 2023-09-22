@@ -1,0 +1,110 @@
+version: "3"
+# docker compose for monitoring ang logging with prometheus grafana cAdvisor
+
+volumes:
+  prometheus_data: {}
+  grafana_data: {}
+
+services:
+  prometheus:
+    # latest 2.47
+    image: prom/prometheus
+    container_name: pk_prometheus
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+      - '--storage.tsdb.retention.time=200h'
+      - '--web.enable-lifecycle'
+#       in storage.local.target-heap-size in bytes Prometheus keeps all the currently used chunks in memory. How much memory it may use for this caching. размер кучи (в байтах), который Prometheus не должен превышать. В версии 2.47 нет такого флага
+#      - '--storage.local.target-heap-size=1000000'
+    restart: unless-stopped
+    expose:
+      - 9090
+    ports:
+      - "9090:9090"
+    networks:
+      - supportchatgptbot_botnet
+    labels:
+      org.label-schema.group: "monitoring for PK containers"
+
+# добавление узла экспортера nodeexporter и cAdvisor -
+  nodeexporter:
+    image: prom/node-exporter
+    container_name: pk_node-exporter
+    restart: unless-stopped
+    expose:
+      - 9100
+    networks:
+      - supportchatgptbot_botnet
+    labels:
+      org.label-schema.group: "monitoring for PK containers"
+
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:latest
+    container_name: pk_cadvisor
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:rw
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+    restart: unless-stopped
+    expose:
+      - 8080
+#    ports:
+#      - "8080:8080"
+    networks:
+      - supportchatgptbot_botnet
+    labels:
+      org.label-schema.group: "monitoring for PK containers"
+
+# настрйока grafana - визуализация
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./grafana/provisioning/dashboards:/etc/grafana/provisioning/dashboards
+      - ./grafana/provisioning/datasources:/etc/grafana/provisioning/datasources
+    env_file:
+      - user.config
+    restart: unless-stopped
+    expose:
+      - 3000
+    ports:
+      - "3000:3000"
+    networks:
+      - supportchatgptbot_botnet
+    labels:
+      org.label-schema.group: "monitoring for PK containers"
+
+# рассылку предупреждений, основываясь на информации, собранной сервером Prometheus.
+  alertmanager:
+    image: prom/alertmanager:v0.26.0
+    container_name: alertmanager
+    volumes:
+      - ./alertmanager:/etc/alertmanager
+    command:
+      - '--config.file=/etc/alertmanager/config.yml'
+      - '--storage.path=/alertmanager'
+    restart: unless-stopped
+    expose:
+      - 9093
+    networks:
+      - supportchatgptbot_botnet
+    labels:
+      org.label-schema.group: "monitoring"
+
+#  syslogger:
+#    build: .
+#    container_name: syslogger
+#    volumes:
+#      - ./temp/syslogdev:/dev
+
+# use pre-existing network to join new containers
+networks:
+  supportchatgptbot_botnet:
+    external: true
