@@ -81,6 +81,44 @@ services:
     labels:
       org.label-schema.group: "monitoring for PK containers"
 
+  loki:
+    image: grafana/loki:2.4.0
+    container_name: loki
+    ports:
+      - "3100:3100"
+    restart: always
+    logging:
+      driver: loki
+      options:
+        loki-url: http://loki:3100/loki/api/v1/push
+        mode: non-blocking
+        max-buffer-size: 4m
+        loki-retries: "3"
+    volumes:
+      - ./loki:/etc/loki
+    command:
+      - '--config.file=/etc/loki/loki-config.yaml'
+    networks:
+      - supportchatgptbot_botnet
+    labels:
+      org.label-schema.group: "monitoring for PK containers"
+
+  promtail:
+    image: grafana/promtail:2.4.0
+    container_name: promtail
+    depends_on:
+      - loki
+    volumes:
+      - .var/log:/var/log
+      - ./promtail:/etc/promtail
+    restart: unless-stopped
+    command:
+        - '--config.file=/etc/promtail/promtail-config.yaml'
+    networks:
+      - supportchatgptbot_botnet
+    labels:
+      org.label-schema.group: "monitoring for PK containers"
+
 # рассылку предупреждений, основываясь на информации, собранной сервером Prometheus.
   alertmanager:
     image: prom/alertmanager:v0.26.0
@@ -96,7 +134,7 @@ services:
     networks:
       - supportchatgptbot_botnet
     labels:
-      org.label-schema.group: "monitoring"
+      org.label-schema.group: "monitoring for PK containers"
 
 #  syslogger:
 #    build: .
