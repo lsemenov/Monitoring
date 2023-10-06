@@ -20,14 +20,14 @@
   "fiscalYearStartMonth": 0,
   "gnetId": 18700,
   "graphTooltip": 0,
-  "id": 9,
+  "id": 7,
   "links": [],
   "liveNow": false,
   "panels": [
     {
       "datasource": {
         "type": "loki",
-        "uid": "bc38342b-755b-43c4-b779-7284b63df8b3"
+        "uid": "e285993b-e376-4cb3-a35f-820e85c11934"
       },
       "description": "",
       "gridPos": {
@@ -37,6 +37,7 @@
         "y": 0
       },
       "id": 1,
+      "maxDataPoints": 1000,
       "options": {
         "dedupStrategy": "none",
         "enableLogDetails": true,
@@ -51,10 +52,10 @@
         {
           "datasource": {
             "type": "loki",
-            "uid": "bc38342b-755b-43c4-b779-7284b63df8b3"
+            "uid": "e285993b-e376-4cb3-a35f-820e85c11934"
           },
           "editorMode": "builder",
-          "expr": "{container_name=\"bot\"} |= ``",
+          "expr": "{container_name=\"bot\"}",
           "queryType": "range",
           "refId": "A"
         }
@@ -65,7 +66,7 @@
     {
       "datasource": {
         "type": "loki",
-        "uid": "bc38342b-755b-43c4-b779-7284b63df8b3"
+        "uid": "e285993b-e376-4cb3-a35f-820e85c11934"
       },
       "description": "",
       "gridPos": {
@@ -89,10 +90,9 @@
         {
           "datasource": {
             "type": "loki",
-            "uid": "bc38342b-755b-43c4-b779-7284b63df8b3"
+            "uid": "e285993b-e376-4cb3-a35f-820e85c11934"
           },
-          "editorMode": "builder",
-          "expr": "{container_name=\"db\"} |= ``",
+          "expr": "{container_name=\"db\"}",
           "queryType": "range",
           "refId": "A"
         }
@@ -103,7 +103,7 @@
     {
       "datasource": {
         "type": "loki",
-        "uid": "bc38342b-755b-43c4-b779-7284b63df8b3"
+        "uid": "e285993b-e376-4cb3-a35f-820e85c11934"
       },
       "fieldConfig": {
         "defaults": {
@@ -181,10 +181,10 @@
         {
           "datasource": {
             "type": "loki",
-            "uid": "bc38342b-755b-43c4-b779-7284b63df8b3"
+            "uid": "e285993b-e376-4cb3-a35f-820e85c11934"
           },
           "editorMode": "code",
-          "expr": "rate({compose_project=\"supportchatgptbot\",container_name=~\"bot\"} |~ \"WARNING|ERROR\"[1m])",
+          "expr": "rate({compose_project=\"supportchatgptbot\", container_name=~\"bot|db\"} |~ `ERROR|WARNING` [1m])",
           "queryType": "range",
           "refId": "A"
         }
@@ -195,7 +195,7 @@
     {
       "datasource": {
         "type": "loki",
-        "uid": "bc38342b-755b-43c4-b779-7284b63df8b3"
+        "uid": "e285993b-e376-4cb3-a35f-820e85c11934"
       },
       "description": "",
       "gridPos": {
@@ -219,10 +219,9 @@
         {
           "datasource": {
             "type": "loki",
-            "uid": "bc38342b-755b-43c4-b779-7284b63df8b3"
+            "uid": "e285993b-e376-4cb3-a35f-820e85c11934"
           },
-          "editorMode": "builder",
-          "expr": "{container_name=\"promtail\"} |= ``",
+          "expr": "{container_name=\"promtail\"}",
           "queryType": "range",
           "refId": "A"
         }
@@ -248,6 +247,6 @@
   "timezone": "",
   "title": "Docker Logs",
   "uid": "d1b29328-02cf-437d-a81e-1d2ac3c2075f",
-  "version": 12,
+  "version": 11,
   "weekStart": ""
 }

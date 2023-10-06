@@ -13,7 +13,7 @@ receivers:
 #    - name: 'telegram'
 #      telegram_configs:
 #        - bot_token: '6314535569:AAFAXfaJIX2ZZab-aK86Jg_O5tB8qXBaAvo'
-#            chat_id: -951543354
+#            chat_id: -951543354 это чат бота супер команда
 #             chat_id: -4080003674
 #            send_resolved: true
 #            api_url: "https://api.telegram.org"

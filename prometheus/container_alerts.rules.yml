@@ -1,0 +1,61 @@
+apiVersion: 1
+groups:
+    - orgId: 1
+      name: Prometheus Alerts
+      folder: AlertsError
+      interval: 5m
+      rules:
+        - uid: d8270063-b808-4301-8030-e79c16387508
+          title: Docker Container Count
+          condition: A
+          data:
+            - refId: A
+              relativeTimeRange:
+                from: 600
+                to: 0
+              datasourceUid: PBFA97CFB590B2093
+              model:
+                editorMode: code
+                expr: count(container_memory_usage_bytes{image!=""})
+                instant: true
+                intervalMs: 1000
+                legendFormat: __auto
+                maxDataPoints: 43200
+                range: false
+                refId: A
+            - refId: B
+              relativeTimeRange:
+                from: 600
+                to: 0
+              datasourceUid: __expr__
+              model:
+                conditions:
+                    - evaluator:
+                        params:
+                            - 9
+                            - 0
+                        type: lt
+                      operator:
+                        type: and
+                      query:
+                        params:
+                            - A
+                      reducer:
+                        params: []
+                        type: max
+                      type: query
+                datasource:
+                    name: Expression
+                    type: __expr__
+                    uid: __expr__
+                expression: ""
+                intervalMs: 1000
+                maxDataPoints: 43200
+                refId: B
+                type: classic_conditions
+          noDataState: NoData
+          execErrState: Error
+          for: 5m
+          annotations:
+            summary: Упал контейнер
+          isPaused: false

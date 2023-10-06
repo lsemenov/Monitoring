@@ -1,0 +1,64 @@
+apiVersion: 1
+groups:
+    - orgId: 1
+      name: Prometheus Alerts
+      folder: AlertsError
+      interval: 5m
+      rules:
+        - uid: e5e57757-bf06-43cb-853b-c0f5611435aa
+          title: Error and Warning rates
+          condition: A
+          data:
+            - refId: A
+              queryType: range
+              relativeTimeRange:
+                from: 3600
+                to: 0
+              datasourceUid: e285993b-e376-4cb3-a35f-820e85c11934
+              model:
+                datasource:
+                    type: loki
+                    uid: e285993b-e376-4cb3-a35f-820e85c11934
+                expr: '{compose_project="supportchatgptbot", container_name=~"bot", __name__=" "}'
+                intervalMs: 1000
+                maxDataPoints: 43200
+                queryType: range
+                refId: A
+            - refId: B
+              datasourceUid: __expr__
+              model:
+                conditions:
+                    - evaluator:
+                        params:
+                            - 0.02
+                            - 0
+                        type: gt
+                      operator:
+                        type: and
+                      query:
+                        params:
+                            - A
+                      reducer:
+                        params: []
+                        type: avg
+                      type: query
+                datasource:
+                    name: Expression
+                    type: __expr__
+                    uid: __expr__
+                expression: ""
+                hide: false
+                intervalMs: 1000
+                maxDataPoints: 43200
+                refId: B
+                type: classic_conditions
+          dashboardUid: d1b29328-02cf-437d-a81e-1d2ac3c2075f
+          panelId: 5
+          noDataState: NoData
+          execErrState: Error
+          for: 5m
+          annotations:
+            __dashboardUid__: d1b29328-02cf-437d-a81e-1d2ac3c2075f
+            __panelId__: "5"
+            summary: Ошибки в приложении
+          isPaused: false
