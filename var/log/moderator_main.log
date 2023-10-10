@@ -1,0 +1,1703 @@
+2023-09-24 17:02:20,904 ;;; INFO ;;; запуск бота
+2023-09-24 17:02:21,424 ;;; INFO ;;; Start creating a new auth key on DC2
+2023-09-24 17:02:21,425 ;;; INFO ;;; Connecting...
+2023-09-24 17:02:21,472 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 17:02:22,506 ;;; INFO ;;; Done auth key exchange: DhGenOk
+2023-09-24 17:02:22,506 ;;; INFO ;;; Disconnected
+2023-09-24 17:02:22,520 ;;; INFO ;;; Connecting...
+2023-09-24 17:02:22,567 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 17:02:22,568 ;;; INFO ;;; NetworkTask started
+2023-09-24 17:02:22,813 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 17:02:22,813 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 17:02:22,813 ;;; INFO ;;; System: Windows 10 (en)
+2023-09-24 17:02:22,814 ;;; INFO ;;; Session started
+2023-09-24 17:02:22,816 ;;; INFO ;;; PingTask started
+2023-09-24 17:03:11,946 ;;; INFO ;;; Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-24 17:03:11,946 ;;; INFO ;;; NumExpr defaulting to 8 threads.
+2023-09-24 17:03:12,359 ;;; INFO ;;; [my_account_adam] [LOAD] MessageHandler("private_message_handler") in group 0 from "plugins.handlers"
+2023-09-24 17:03:12,359 ;;; INFO ;;; [my_account_adam] [LOAD] MessageHandler("group_message_handler") in group 0 from "plugins.handlers"
+2023-09-24 17:03:12,359 ;;; INFO ;;; [my_account_adam] [LOAD] RawUpdateHandler("raw_updates_handler") in group 0 from "plugins.handlers"
+2023-09-24 17:03:12,359 ;;; INFO ;;; [my_account_adam] Successfully loaded 3 plugins from "plugins"
+2023-09-24 17:03:12,359 ;;; INFO ;;; Started 16 HandlerTasks
+2023-09-24 17:04:12,152 ;;; INFO ;;; сработал private_message_handler на сообщение: /get_chats
+2023-09-24 17:04:12,152 ;;; INFO ;;; Вызвана функция create_states_list
+2023-09-24 17:04:12,152 ;;; INFO ;;; вызвана функция get_chat_state_information
+2023-09-24 17:04:19,126 ;;; INFO ;;; сработал private_message_handler на сообщение: /get_chat
+2023-09-24 17:04:33,198 ;;; ERROR ;;; в функции get_chat_state_information ошибка Error 22 connecting to 172.18.0.1:6379. 22., функция вернула {}
+2023-09-24 17:04:33,292 ;;; ERROR ;;; в функции private_message_handler if /get_chats вызвала ошибку Telegram says: [400 MESSAGE_EMPTY] - The message sent is empty or contains invalid characters (caused by "messages.SendMessage")
+2023-09-24 17:05:48,110 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operators_chat https://t.me/+DOeePhU57CVmZDAy
+2023-09-24 17:05:48,218 ;;; ERROR ;;; в функции private_message_handler if /set_operators_chat вызвала ошибку 'ChatPreview' object has no attribute 'id'
+2023-09-24 17:06:28,433 ;;; INFO ;;; сработал raw_updates_handler на UpdateChannel
+2023-09-24 17:06:28,522 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 17:06:40,806 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operators_chat https://t.me/+DOeePhU57CVmZDAy
+2023-09-24 17:06:41,017 ;;; INFO ;;; вызвана функция set_operator_chat с чат id: -1001660039773 и юзером None
+2023-09-24 17:06:49,556 ;;; ERROR ;;; вызвана функция set_chat_state и вызвала ошибку Error 22 connecting to 172.18.0.1:6379. 22.
+2023-09-24 17:06:49,556 ;;; INFO ;;; Чат Оператор Тех. Поддержки ГосЭДО: тест теперь прослушивается ботом модератором
+2023-09-24 17:07:02,063 ;;; ERROR ;;; в функции private_message_handler if /set_operators_chat вызвала ошибку Error 22 connecting to 172.18.0.1:6379. 22.
+2023-09-24 17:08:44,659 ;;; INFO ;;; Stop signal received (SIGINT). Exiting...
+2023-09-24 17:08:44,665 ;;; INFO ;;; Stopped 16 HandlerTasks
+2023-09-24 17:08:44,665 ;;; INFO ;;; PingTask stopped
+2023-09-24 17:08:44,665 ;;; INFO ;;; Disconnected
+2023-09-24 17:08:44,665 ;;; INFO ;;; NetworkTask stopped
+2023-09-24 17:08:44,665 ;;; INFO ;;; Session stopped
+2023-09-24 14:18:18,170 ;;; INFO ;;; запуск бота
+2023-09-24 14:18:18,308 ;;; INFO ;;; Connecting...
+2023-09-24 14:18:18,311 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 14:18:18,312 ;;; INFO ;;; NetworkTask started
+2023-09-24 14:18:18,512 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 14:18:18,512 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 14:18:18,513 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-09-24 14:18:18,513 ;;; INFO ;;; Session started
+2023-09-24 14:18:18,515 ;;; INFO ;;; PingTask started
+2023-09-24 14:18:20,691 ;;; INFO ;;; Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-24 14:18:20,692 ;;; INFO ;;; NumExpr defaulting to 8 threads.
+2023-09-24 14:18:21,047 ;;; INFO ;;; [my_account_adam] [LOAD] MessageHandler("private_message_handler") in group 0 from "plugins.handlers"
+2023-09-24 14:18:21,048 ;;; INFO ;;; [my_account_adam] [LOAD] MessageHandler("group_message_handler") in group 0 from "plugins.handlers"
+2023-09-24 14:18:21,048 ;;; INFO ;;; [my_account_adam] [LOAD] RawUpdateHandler("raw_updates_handler") in group 0 from "plugins.handlers"
+2023-09-24 14:18:21,048 ;;; INFO ;;; [my_account_adam] Successfully loaded 3 plugins from "plugins"
+2023-09-24 14:18:21,049 ;;; INFO ;;; Started 16 HandlerTasks
+2023-09-24 14:19:47,343 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operators_chat https://t.me/+DOeePhU57CVmZDAy
+2023-09-24 14:19:47,506 ;;; INFO ;;; вызвана функция set_operator_chat с чат id: -1001660039773 и юзером None
+2023-09-24 14:19:55,648 ;;; INFO ;;; сработал private_message_handler на сообщение: /get_chat
+2023-09-24 14:20:03,567 ;;; INFO ;;; сработал private_message_handler на сообщение: /get_chat
+2023-09-24 14:20:07,777 ;;; INFO ;;; сработал private_message_handler на сообщение: /get_chats
+2023-09-24 14:20:07,777 ;;; INFO ;;; Вызвана функция create_states_list
+2023-09-24 14:20:07,777 ;;; INFO ;;; вызвана функция get_chat_state_information
+2023-09-24 14:20:07,779 ;;; INFO ;;; функция get_chat_state_information вернула {}
+2023-09-24 14:20:07,832 ;;; ERROR ;;; в функции private_message_handler if /get_chats вызвала ошибку Telegram says: [400 MESSAGE_EMPTY] - The message sent is empty or contains invalid characters (caused by "messages.SendMessage")
+2023-09-24 14:20:29,082 ;;; INFO ;;; сработал group_message_handler на сообщение: Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап.
+2023-09-24 14:20:29,082 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 14:20:29,084 ;;; INFO ;;; функция check_chat установила состояние Operator для чата -1001965935676
+2023-09-24 14:20:29,085 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 14:20:29,087 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 14:20:29,087 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 14:20:29,088 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 14:20:29,089 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 14:20:29,090 ;;; INFO ;;; функция get_chat_state вернула Operator
+2023-09-24 14:20:29,090 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 14:20:29,091 ;;; INFO ;;; вызвана функция timer_manager
+2023-09-24 14:20:29,173 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 14:20:29,175 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 14:20:29,175 ;;; INFO ;;; вызвана функция timer_iteration
+2023-09-24 14:20:29,242 ;;; INFO ;;; вызвана функция waiting_for_set_event с чат айди: -1001965935676
+2023-09-24 14:21:22,722 ;;; INFO ;;; Stop signal received (SIGTERM). Exiting...
+2023-09-24 14:21:27,016 ;;; INFO ;;; Stop signal received (SIGTERM). Exiting...
+2023-09-24 14:21:29,463 ;;; INFO ;;; функция timer_iteration вернула [False, True]
+2023-09-24 14:21:29,464 ;;; INFO ;;; В чате ГосЭДО ДСП: Люблино работаем нужна классификация
+2023-09-24 14:21:29,464 ;;; INFO ;;; вызвана функция get_user_messages
+2023-09-24 14:21:29,840 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 14:21:29,841 ;;; INFO ;;; функция get_user_messages вернула ['Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап.\n\n', False]
+2023-09-24 14:21:29,841 ;;; INFO ;;; вызвана функция num_tokens_from_string
+2023-09-24 14:21:30,087 ;;; INFO ;;; Stop signal received (SIGTERM). Exiting...
+2023-09-24 14:21:32,358 ;;; INFO ;;; функция num_tokens_from_string вернула 34
+2023-09-24 14:21:32,359 ;;; INFO ;;; вызвана функция get_msg_by_id
+2023-09-24 14:21:32,488 ;;; INFO ;;; вызвана функция is_simple_media
+2023-09-24 14:21:32,489 ;;; INFO ;;; сработала функция discussion_classifier
+2023-09-24 14:22:07,841 ;;; INFO ;;; запуск бота
+2023-09-24 14:22:07,976 ;;; INFO ;;; Connecting...
+2023-09-24 14:22:07,979 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 14:22:07,980 ;;; INFO ;;; NetworkTask started
+2023-09-24 14:22:08,186 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 14:22:08,186 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 14:22:08,187 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-09-24 14:22:08,187 ;;; INFO ;;; Session started
+2023-09-24 14:22:08,189 ;;; INFO ;;; PingTask started
+2023-09-24 14:22:09,992 ;;; INFO ;;; Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-24 14:22:09,993 ;;; INFO ;;; NumExpr defaulting to 8 threads.
+2023-09-24 14:22:10,350 ;;; INFO ;;; [my_account_adam] [LOAD] MessageHandler("private_message_handler") in group 0 from "plugins.handlers"
+2023-09-24 14:22:10,351 ;;; INFO ;;; [my_account_adam] [LOAD] MessageHandler("group_message_handler") in group 0 from "plugins.handlers"
+2023-09-24 14:22:10,351 ;;; INFO ;;; [my_account_adam] [LOAD] RawUpdateHandler("raw_updates_handler") in group 0 from "plugins.handlers"
+2023-09-24 14:22:10,351 ;;; INFO ;;; [my_account_adam] Successfully loaded 3 plugins from "plugins"
+2023-09-24 14:22:10,352 ;;; INFO ;;; Started 16 HandlerTasks
+2023-09-24 14:22:26,954 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operators_chat https://t.me/+DOeePhU57CVmZDAy
+2023-09-24 14:22:27,184 ;;; INFO ;;; вызвана функция set_operator_chat с чат id: -1001660039773 и юзером None
+2023-09-24 14:22:48,743 ;;; INFO ;;; сработал group_message_handler на сообщение: Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап.
+2023-09-24 14:22:48,744 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 14:22:48,746 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 14:22:48,748 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 14:22:48,748 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 14:22:48,750 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 14:22:48,750 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 14:22:48,752 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 14:22:48,752 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 14:24:13,508 ;;; INFO ;;; сработал private_message_handler на сообщение: /start
+2023-09-24 14:24:14,117 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 14:24:47,633 ;;; INFO ;;; сработал group_message_handler на сообщение: Добрый день! Проверяем
+2023-09-24 14:24:47,633 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 14:24:47,635 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 14:24:47,636 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 14:24:47,637 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 14:24:47,638 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 14:24:47,638 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 14:24:47,640 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 14:24:47,640 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 14:25:07,447 ;;; INFO ;;; сработал private_message_handler на сообщение: /get_chats
+2023-09-24 14:25:07,447 ;;; INFO ;;; Вызвана функция create_states_list
+2023-09-24 14:25:07,448 ;;; INFO ;;; вызвана функция get_chat_state_information
+2023-09-24 14:25:07,449 ;;; INFO ;;; функция get_chat_state_information вернула {'-1001965935676': 'User'}
+2023-09-24 14:25:07,522 ;;; INFO ;;; функция create_states_list вернула <a href="">ГосЭДО ДСП: Люблино работаем</a> : User 
+
+2023-09-24 14:28:05,890 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operator @aleksei_lsemenov
+2023-09-24 14:28:05,891 ;;; INFO ;;; вызвана функция set_operator с id: ['@aleksei_lsemenov']
+2023-09-24 14:28:22,476 ;;; INFO ;;; сработал group_message_handler на сообщение: ————————————————operator
+2023-09-24 14:28:22,477 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 14:28:22,478 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 14:28:22,480 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 14:28:22,480 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 14:28:22,482 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 14:28:22,482 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 14:28:41,156 ;;; INFO ;;; сработал private_message_handler на сообщение: /start
+2023-09-24 14:28:43,157 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 14:29:50,296 ;;; INFO ;;; сработал group_message_handler на сообщение: Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап.
+2023-09-24 14:29:50,297 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 14:29:50,298 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 14:29:50,300 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 14:29:50,300 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 14:29:50,302 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 14:29:50,302 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 14:30:04,444 ;;; INFO ;;; сработал group_message_handler на сообщение: ————————————————operator
+2023-09-24 14:30:04,445 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 14:30:04,446 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 14:30:04,448 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 14:30:04,448 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 14:30:04,449 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 14:30:04,450 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 14:30:35,716 ;;; INFO ;;; сработал private_message_handler на сообщение: /remove_operator @aleksei_lsemenov
+2023-09-24 14:30:35,717 ;;; INFO ;;; вызвана функция remove_operator с юзернеймами: ['@aleksei_lsemenov']
+2023-09-24 14:30:42,473 ;;; INFO ;;; сработал group_message_handler на сообщение: Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап.
+2023-09-24 14:30:42,474 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 14:30:42,475 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 14:30:42,477 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 14:30:42,477 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 14:30:42,478 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 14:30:42,479 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 14:30:42,480 ;;; INFO ;;; функция get_chat_state вернула Operator
+2023-09-24 14:30:42,480 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 14:30:42,481 ;;; INFO ;;; вызвана функция timer_manager
+2023-09-24 14:30:42,589 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 14:30:42,591 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 14:30:42,591 ;;; INFO ;;; вызвана функция timer_iteration
+2023-09-24 14:30:42,695 ;;; INFO ;;; вызвана функция waiting_for_set_event с чат айди: -1001965935676
+2023-09-24 14:31:42,925 ;;; INFO ;;; функция timer_iteration вернула [False, True]
+2023-09-24 14:31:42,925 ;;; INFO ;;; В чате ГосЭДО ДСП: Люблино работаем нужна классификация
+2023-09-24 14:31:42,926 ;;; INFO ;;; вызвана функция get_user_messages
+2023-09-24 14:31:43,138 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 14:31:43,138 ;;; INFO ;;; функция get_user_messages вернула ['Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап.\n\n', False]
+2023-09-24 14:31:43,138 ;;; INFO ;;; вызвана функция num_tokens_from_string
+2023-09-24 14:31:45,650 ;;; INFO ;;; функция num_tokens_from_string вернула 34
+2023-09-24 14:31:45,651 ;;; INFO ;;; вызвана функция get_msg_by_id
+2023-09-24 14:31:45,780 ;;; INFO ;;; вызвана функция is_simple_media
+2023-09-24 14:31:45,780 ;;; INFO ;;; сработала функция discussion_classifier
+2023-09-24 14:31:46,584 ;;; INFO ;;; message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=470 request_id=35da72c93509cadf98008dba7b83e8c0 response_code=200
+2023-09-24 14:31:46,586 ;;; INFO ;;; функция discussion_classifier вернула 1
+2023-09-24 14:31:46,586 ;;; INFO ;;; содержимоме user_messages Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап.
+
+
+2023-09-24 14:31:46,586 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Waiting_91
+2023-09-24 14:31:46,588 ;;; INFO ;;; В чате <a href="">ГосЭДО ДСП: Люблино работаем</a>  пользователю требуется помощь:
+Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап.  
+
+2023-09-24 14:31:46,588 ;;; INFO ;;; вызвана функция send_message_bot
+2023-09-24 14:31:46,588 ;;; INFO ;;; вызвана функция get_bot_answer_chat_state
+2023-09-24 14:31:46,590 ;;; INFO ;;; функция get_bot_answer_chat_state вернула None
+2023-09-24 14:31:47,057 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 14:31:48,825 ;;; INFO ;;; функция send_message_bot вернула 46
+2023-09-24 14:31:48,825 ;;; INFO ;;; вызвана функция get_answer_bot
+2023-09-24 14:31:49,047 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 14:31:52,295 ;;; WARNING ;;; [my_account_adam] Waiting for 28 seconds before continuing (required by "messages.GetHistory")
+2023-09-24 14:32:22,536 ;;; WARNING ;;; [my_account_adam] Waiting for 29 seconds before continuing (required by "messages.GetHistory")
+2023-09-24 14:32:23,206 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 14:32:51,732 ;;; INFO ;;; функция get_answer_bot вернула Описание проблемы: Ваш вопрос связан с необходимостью проверки связи и переподключения при обрыве связи с использованием Континента АП.  Наблюдаемые симптомы: Вы хотите знать, какую команду использовать для проверки и переподключения при обрыве связи Континента АП.  Вероятные причины: 1. Обрыв связи с сервером. 2. Необходимость проверки статуса связи.  Предложения по устранению проблемы : 1. Для проверки связи можно использовать команду: cts show stats. Эта команда покажет статистику соединения с сервером. 2. Для проверки доступности Узла маршрутизации можно использовать команду: curl http://192.168.40.1:81/ && echo "API интерфейс для узлов сопряжения (echo "Aa123456! "; echo "Aa123456!  Предложения по диагностике: 1. Проверьте, установлено ли соединение с сервером, используя команду cts show stats. 2. Проверьте доступность Узла маршрутизации, используя команду curl http://192.168.40.1:81/ && echo "API интерфейс для узлов сопряжения (echo "Aa123456! "; echo "Aa123456!  Если информации недостаточно или проблема не устраняется, рекомендуется обратиться в службу технической поддержки ГосЭДО для получения дополнительной помощи.
+2023-09-24 14:32:51,733 ;;; INFO ;;; Вызвана функция send_info_to_operators с юзернеймом -1001660039773
+2023-09-24 14:33:20,646 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operator @aleksei_lsemenov
+2023-09-24 14:33:20,646 ;;; INFO ;;; вызвана функция set_operator с id: ['@aleksei_lsemenov']
+2023-09-24 14:33:37,088 ;;; INFO ;;; сработал group_message_handler на сообщение: ————————————————operator
+2023-09-24 14:33:37,088 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 14:33:37,090 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 14:33:37,092 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 14:33:37,093 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 14:33:37,094 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 14:33:37,095 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 14:33:48,869 ;;; INFO ;;; сработал private_message_handler на сообщение: /remove_operator @aleksei_lsemenov
+2023-09-24 14:33:48,870 ;;; INFO ;;; вызвана функция remove_operator с юзернеймами: ['@aleksei_lsemenov']
+2023-09-24 14:34:06,719 ;;; INFO ;;; сработал group_message_handler на сообщение: Добрый день! Проверяем.
+2023-09-24 14:34:06,719 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 14:34:06,721 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 14:34:06,723 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 14:34:06,723 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 14:34:06,725 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 14:34:06,725 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 14:34:06,726 ;;; INFO ;;; функция get_chat_state вернула Operator
+2023-09-24 14:34:06,726 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 14:34:06,728 ;;; INFO ;;; вызвана функция timer_manager
+2023-09-24 14:34:06,815 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 14:34:06,817 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 14:34:06,817 ;;; INFO ;;; вызвана функция timer_iteration
+2023-09-24 14:34:06,906 ;;; INFO ;;; вызвана функция waiting_for_set_event с чат айди: -1001965935676
+2023-09-24 14:34:11,789 ;;; INFO ;;; сработал group_message_handler на сообщение: Подключе восстановлено.
+2023-09-24 14:34:11,789 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 14:34:11,791 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 14:34:11,793 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 14:34:11,794 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 14:34:11,795 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 14:34:11,795 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 14:34:11,796 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 14:34:11,797 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 14:34:16,360 ;;; INFO ;;; сработал group_message_handler на сообщение: Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап
+2023-09-24 14:34:16,361 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 14:34:16,362 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 14:34:16,364 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 14:34:16,364 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 14:34:16,365 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 14:34:16,365 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 14:34:16,367 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 14:34:16,367 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 14:35:06,936 ;;; INFO ;;; функция timer_iteration вернула [False, True]
+2023-09-24 14:35:06,936 ;;; INFO ;;; В чате ГосЭДО ДСП: Люблино работаем нужна классификация
+2023-09-24 14:35:06,936 ;;; INFO ;;; вызвана функция get_user_messages
+2023-09-24 14:35:07,364 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 14:35:07,364 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 14:35:07,364 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 14:35:07,365 ;;; INFO ;;; функция get_user_messages вернула ['Добрый день! Проверяем.\n\nПодключе восстановлено.\n\nПодскажите команду  для проверки и  переподключения при обрыве связи Континента Ап\n\n', False]
+2023-09-24 14:35:07,365 ;;; INFO ;;; вызвана функция num_tokens_from_string
+2023-09-24 14:35:07,365 ;;; INFO ;;; функция num_tokens_from_string вернула 55
+2023-09-24 14:35:07,365 ;;; INFO ;;; вызвана функция get_msg_by_id
+2023-09-24 14:35:07,579 ;;; INFO ;;; вызвана функция is_simple_media
+2023-09-24 14:35:07,580 ;;; INFO ;;; сработала функция discussion_classifier
+2023-09-24 14:35:09,658 ;;; INFO ;;; message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1776 request_id=521f2c28a43baeeeafb518336eba21d9 response_code=200
+2023-09-24 14:35:09,659 ;;; INFO ;;; функция discussion_classifier вернула 1
+2023-09-24 14:35:09,659 ;;; INFO ;;; содержимоме user_messages Добрый день! Проверяем.
+
+Подключе восстановлено.
+
+Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап
+
+
+2023-09-24 14:35:09,660 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Waiting_93
+2023-09-24 14:35:09,661 ;;; INFO ;;; В чате <a href="">ГосЭДО ДСП: Люблино работаем</a>  пользователю требуется помощь:
+Добрый день! Проверяем.  Подключе восстановлено.  Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап  
+
+2023-09-24 14:35:09,661 ;;; INFO ;;; вызвана функция send_message_bot
+2023-09-24 14:35:09,662 ;;; INFO ;;; вызвана функция get_bot_answer_chat_state
+2023-09-24 14:35:09,663 ;;; INFO ;;; функция get_bot_answer_chat_state вернула None
+2023-09-24 14:35:10,090 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 14:35:11,825 ;;; INFO ;;; функция send_message_bot вернула 55
+2023-09-24 14:35:11,826 ;;; INFO ;;; вызвана функция get_answer_bot
+2023-09-24 14:35:11,983 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 14:35:13,990 ;;; WARNING ;;; [my_account_adam] Waiting for 29 seconds before continuing (required by "messages.GetHistory")
+2023-09-24 14:35:45,028 ;;; WARNING ;;; [my_account_adam] Waiting for 29 seconds before continuing (required by "messages.GetHistory")
+2023-09-24 14:35:49,555 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 14:36:14,126 ;;; INFO ;;; функция get_answer_bot вернула Описание проблемы: Ваш вопрос связан с проверкой и переподключением при обрыве связи с Континентом Ап.  Наблюдаемые симптомы: Вы сообщили, что подключение было восстановлено, но хотите знать, как проверить связь и переподключиться в случае обрыва.  Вероятные причины: 1. Обрыв связи может быть вызван различными причинами, включая проблемы с сетью, сервером или программным обеспечением.  Предложения по устранению проблемы : 1. Для проверки связи вы можете использовать команду: cts show stats. Эта команда покажет статистику соединения с сервером. 2. Если вы обнаружите, что связь оборвана, вы можете попробовать переподключиться, используя команду: /usr/share/cts/bin/cts connect -profile gosedo -pass Aa123456!  Предложения по диагностике: 1. Если проблема с обрывом связи продолжается, рекомендуется проверить сетевую доступность узла оператора, используя команду: sudo traceroute -T -p 443 185.194.32.212 2. Также может быть полезно проверить статус сервера и убедиться, что он работает корректно.  Если информации недостаточно или проблема не устраняется, рекомендуется обратиться в службу технической поддержки ГосЭДО для получения дополнительной помощи.
+2023-09-24 14:36:14,126 ;;; INFO ;;; Вызвана функция send_info_to_operators с юзернеймом -1001660039773
+2023-09-24 14:36:52,611 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operator @aleksei_lsemenov
+2023-09-24 14:36:52,612 ;;; INFO ;;; вызвана функция set_operator с id: ['@aleksei_lsemenov']
+2023-09-24 14:37:03,362 ;;; INFO ;;; сработал group_message_handler на сообщение: Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил    он мог быть уточняющим,    Ну он же должен оператору весь контекст передавать, склеенный из истории переписки    А передавать конкретно raw переписку не надо    На вопросы, не связанные с предметом техподдержки - обучен не реагировать?    да умеет, бывают ложные срабатывания   но зато меньше пропускает технических вопросов    Ложные срабатывания - не страшно. Отловим и дополним системный промпт.    А как с вопросами, на которые успели дать ответ? Вот например вопрос, ответь:    Какой командой посмотреть содержимое каталога в астра линукс?
+2023-09-24 14:37:03,362 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 14:37:03,364 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 14:37:03,365 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 14:37:03,366 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 14:37:03,367 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 14:37:03,367 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 15:01:42,657 ;;; INFO ;;; Stop signal received (SIGTERM). Exiting...
+2023-09-24 15:01:42,685 ;;; INFO ;;; Stopped 16 HandlerTasks
+2023-09-24 15:01:42,686 ;;; INFO ;;; PingTask stopped
+2023-09-24 15:01:42,686 ;;; INFO ;;; Disconnected
+2023-09-24 15:01:42,686 ;;; INFO ;;; NetworkTask stopped
+2023-09-24 15:01:42,687 ;;; INFO ;;; Session stopped
+2023-09-24 15:03:28,885 ;;; INFO ;;; запуск бота
+2023-09-24 15:03:29,031 ;;; INFO ;;; Connecting...
+2023-09-24 15:03:29,035 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 15:03:29,036 ;;; INFO ;;; NetworkTask started
+2023-09-24 15:03:29,253 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 15:03:29,254 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 15:03:29,254 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-09-24 15:03:29,254 ;;; INFO ;;; Session started
+2023-09-24 15:03:29,256 ;;; INFO ;;; PingTask started
+2023-09-24 15:03:30,994 ;;; INFO ;;; Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-24 15:03:30,995 ;;; INFO ;;; NumExpr defaulting to 8 threads.
+2023-09-24 15:03:31,354 ;;; INFO ;;; [my_account_adam] [LOAD] MessageHandler("private_message_handler") in group 0 from "plugins.handlers"
+2023-09-24 15:03:31,354 ;;; INFO ;;; [my_account_adam] [LOAD] MessageHandler("group_message_handler") in group 0 from "plugins.handlers"
+2023-09-24 15:03:31,355 ;;; INFO ;;; [my_account_adam] [LOAD] RawUpdateHandler("raw_updates_handler") in group 0 from "plugins.handlers"
+2023-09-24 15:03:31,355 ;;; INFO ;;; [my_account_adam] Successfully loaded 3 plugins from "plugins"
+2023-09-24 15:03:31,355 ;;; INFO ;;; Started 16 HandlerTasks
+2023-09-24 15:03:49,541 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operators_chat https://t.me/+DOeePhU57CVmZDAy
+2023-09-24 15:03:49,718 ;;; INFO ;;; вызвана функция set_operator_chat с чат id: -1001660039773 и юзером None
+2023-09-24 15:04:03,368 ;;; INFO ;;; сработал group_message_handler на сообщение: Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил
+2023-09-24 15:04:03,369 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:04:03,371 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:04:03,372 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:04:03,373 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:04:03,374 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 15:04:03,374 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 15:04:07,287 ;;; INFO ;;; сработал group_message_handler на сообщение: он мог быть уточняющим,
+2023-09-24 15:04:07,287 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:04:07,289 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:04:07,290 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:04:07,291 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:04:07,292 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 15:04:07,292 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 15:04:12,307 ;;; INFO ;;; сработал group_message_handler на сообщение: Ну он же должен оператору весь контекст передавать, склеенный из истории переписки
+2023-09-24 15:04:12,307 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:04:12,309 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:04:12,311 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:04:12,311 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:04:12,312 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 15:04:12,313 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 15:04:17,199 ;;; INFO ;;; сработал group_message_handler на сообщение: А передавать конкретно raw переписку не надо
+2023-09-24 15:04:17,200 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:04:17,202 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:04:17,204 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:04:17,205 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:04:17,206 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 15:04:17,206 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 15:04:22,930 ;;; INFO ;;; сработал group_message_handler на сообщение: На вопросы, не связанные с предметом техподдержки - обучен не реагировать?
+2023-09-24 15:04:22,931 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:04:22,932 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:04:22,934 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:04:22,934 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:04:22,936 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 15:04:22,936 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 15:04:28,617 ;;; INFO ;;; сработал group_message_handler на сообщение: да умеет, бывают ложные срабатывания   но зато меньше пропускает технических вопросов
+2023-09-24 15:04:28,618 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:04:28,619 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:04:28,621 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:04:28,621 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:04:28,622 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 15:04:28,623 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 15:04:34,438 ;;; INFO ;;; сработал group_message_handler на сообщение: Ложные срабатывания - не страшно. Отловим и дополним системный промпт.
+2023-09-24 15:04:34,439 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:04:34,440 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:04:34,442 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:04:34,442 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:04:34,444 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 15:04:34,444 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 15:04:38,655 ;;; INFO ;;; сработал group_message_handler на сообщение: А как с вопросами, на которые успели дать ответ? Вот например вопрос, ответь:
+2023-09-24 15:04:38,655 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:04:38,657 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:04:38,659 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:04:38,659 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:04:38,660 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 15:04:38,661 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 15:04:43,041 ;;; INFO ;;; сработал group_message_handler на сообщение: Какой командой посмотреть содержимое каталога в астра линукс?
+2023-09-24 15:04:43,041 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:04:43,043 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:04:43,044 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:04:43,045 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:04:43,046 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 15:04:43,046 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 15:05:20,109 ;;; INFO ;;; сработал private_message_handler на сообщение: /remove_operator @aleksei_lsemenov
+2023-09-24 15:05:20,109 ;;; INFO ;;; вызвана функция remove_operator с юзернеймами: ['@aleksei_lsemenov']
+2023-09-24 15:05:28,432 ;;; INFO ;;; сработал group_message_handler на сообщение: Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил
+2023-09-24 15:05:28,432 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:05:28,434 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:05:28,436 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:05:28,436 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:05:28,437 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:05:28,438 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:05:28,439 ;;; INFO ;;; функция get_chat_state вернула Operator
+2023-09-24 15:05:28,440 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:05:28,441 ;;; INFO ;;; вызвана функция timer_manager
+2023-09-24 15:05:28,520 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:05:28,522 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:05:28,522 ;;; INFO ;;; вызвана функция timer_iteration
+2023-09-24 15:05:28,601 ;;; INFO ;;; вызвана функция waiting_for_set_event с чат айди: -1001965935676
+2023-09-24 15:05:32,177 ;;; INFO ;;; сработал group_message_handler на сообщение: он мог быть уточняющим,
+2023-09-24 15:05:32,178 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:05:32,180 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:05:32,182 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:05:32,182 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:05:32,184 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:05:32,184 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:05:32,186 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:05:32,186 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:05:36,221 ;;; INFO ;;; сработал group_message_handler на сообщение: Ну он же должен оператору весь контекст передавать, склеенный из истории переписки
+2023-09-24 15:05:36,222 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:05:36,224 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:05:36,225 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:05:36,226 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:05:36,227 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:05:36,227 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:05:36,229 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:05:36,229 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:05:41,551 ;;; INFO ;;; сработал group_message_handler на сообщение: А передавать конкретно raw переписку не надо
+2023-09-24 15:05:41,552 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:05:41,553 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:05:41,555 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:05:41,555 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:05:41,556 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:05:41,557 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:05:41,558 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:05:41,558 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:05:46,015 ;;; INFO ;;; сработал raw_updates_handler на UpdateChannelUserTyping
+2023-09-24 15:05:46,015 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:05:46,017 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:05:46,017 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Typing
+2023-09-24 15:05:46,072 ;;; INFO ;;; в чате ГосЭДО ДСП: Люблино работаем кто-то печатает
+2023-09-24 15:05:46,073 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:05:46,074 ;;; INFO ;;; функция timer_iteration вернула [True, True]
+2023-09-24 15:05:46,074 ;;; INFO ;;; вызвана функция timer_iteration
+2023-09-24 15:05:46,147 ;;; INFO ;;; вызвана функция waiting_for_set_event с чат айди: -1001965935676
+2023-09-24 15:05:46,808 ;;; INFO ;;; сработал group_message_handler на сообщение: На вопросы, не связанные с предметом техподдержки - обучен не реагировать?
+2023-09-24 15:05:46,808 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:05:46,810 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:05:46,811 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:05:46,812 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:05:46,813 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:05:46,813 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:05:46,815 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:05:46,815 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:05:51,307 ;;; INFO ;;; сработал raw_updates_handler на UpdateChannelUserTyping
+2023-09-24 15:05:51,308 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:05:51,309 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:05:51,310 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Typing
+2023-09-24 15:05:51,370 ;;; INFO ;;; в чате ГосЭДО ДСП: Люблино работаем кто-то печатает
+2023-09-24 15:05:51,370 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:05:51,372 ;;; INFO ;;; функция timer_iteration вернула [True, True]
+2023-09-24 15:05:51,372 ;;; INFO ;;; вызвана функция timer_iteration
+2023-09-24 15:05:51,556 ;;; INFO ;;; вызвана функция waiting_for_set_event с чат айди: -1001965935676
+2023-09-24 15:05:52,283 ;;; INFO ;;; сработал group_message_handler на сообщение: да умеет, бывают ложные срабатывания   но зато меньше пропускает технических вопросов
+2023-09-24 15:05:52,283 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:05:52,285 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:05:52,286 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:05:52,287 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:05:52,288 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:05:52,288 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:05:52,289 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:05:52,290 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:05:57,175 ;;; INFO ;;; сработал group_message_handler на сообщение: Ложные срабатывания - не страшно. Отловим и дополним системный промпт
+2023-09-24 15:05:57,176 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:05:57,177 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:05:57,178 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:05:57,179 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:05:57,180 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:05:57,180 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:05:57,181 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:05:57,182 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:06:01,240 ;;; INFO ;;; сработал raw_updates_handler на UpdateChannelUserTyping
+2023-09-24 15:06:01,240 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:06:01,242 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:06:01,242 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Typing
+2023-09-24 15:06:01,297 ;;; INFO ;;; в чате ГосЭДО ДСП: Люблино работаем кто-то печатает
+2023-09-24 15:06:01,297 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:06:01,299 ;;; INFO ;;; функция timer_iteration вернула [True, True]
+2023-09-24 15:06:01,299 ;;; INFO ;;; вызвана функция timer_iteration
+2023-09-24 15:06:01,403 ;;; INFO ;;; вызвана функция waiting_for_set_event с чат айди: -1001965935676
+2023-09-24 15:06:02,111 ;;; INFO ;;; сработал group_message_handler на сообщение: А как с вопросами, на которые успели дать ответ? Вот например вопрос, ответь:
+2023-09-24 15:06:02,111 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:06:02,113 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:06:02,114 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:06:02,114 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:06:02,115 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:06:02,116 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:06:02,117 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:06:02,117 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:06:06,113 ;;; INFO ;;; сработал group_message_handler на сообщение: Какой командой посмотреть содержимое каталога в астра линукс?
+2023-09-24 15:06:06,114 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:06:06,116 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:06:06,118 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:06:06,118 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:06:06,120 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:06:06,120 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:06:06,121 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:06:06,122 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:07:01,429 ;;; INFO ;;; функция timer_iteration вернула [False, True]
+2023-09-24 15:07:01,429 ;;; INFO ;;; В чате ГосЭДО ДСП: Люблино работаем нужна классификация
+2023-09-24 15:07:01,430 ;;; INFO ;;; вызвана функция get_user_messages
+2023-09-24 15:07:01,727 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 15:07:01,727 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 15:07:01,727 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 15:07:01,728 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 15:07:01,728 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 15:07:01,728 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 15:07:01,728 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 15:07:01,729 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 15:07:01,729 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 15:07:01,729 ;;; INFO ;;; функция get_user_messages вернула ['Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил\n\nон мог быть уточняющим,\n\nНу он же должен оператору весь контекст передавать, склеенный из истории переписки\n\nА передавать конкретно raw переписку не надо\n\nНа вопросы, не связанные с предметом техподдержки - обучен не реагировать?\n\nда умеет, бывают ложные срабатывания  \nно зато меньше пропускает технических вопросов\n\nЛожные срабатывания - не страшно. Отловим и дополним системный промпт\n\nА как с вопросами, на которые успели дать ответ? Вот например вопрос, ответь:\n\nКакой командой посмотреть содержимое каталога в астра линукс?\n\n', False]
+2023-09-24 15:07:01,729 ;;; INFO ;;; вызвана функция num_tokens_from_string
+2023-09-24 15:07:04,205 ;;; INFO ;;; функция num_tokens_from_string вернула 274
+2023-09-24 15:07:04,206 ;;; INFO ;;; вызвана функция get_msg_by_id
+2023-09-24 15:07:04,356 ;;; INFO ;;; вызвана функция is_simple_media
+2023-09-24 15:07:04,357 ;;; INFO ;;; сработала функция discussion_classifier
+2023-09-24 15:07:05,431 ;;; INFO ;;; message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=617 request_id=dd082b2bba57057f6b18489b6200b2eb response_code=200
+2023-09-24 15:07:05,433 ;;; INFO ;;; функция discussion_classifier вернула 1
+2023-09-24 15:07:05,433 ;;; INFO ;;; содержимоме user_messages Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил
+
+он мог быть уточняющим,
+
+Ну он же должен оператору весь контекст передавать, склеенный из истории переписки
+
+А передавать конкретно raw переписку не надо
+
+На вопросы, не связанные с предметом техподдержки - обучен не реагировать?
+
+да умеет, бывают ложные срабатывания  
+но зато меньше пропускает технических вопросов
+
+Ложные срабатывания - не страшно. Отловим и дополним системный промпт
+
+А как с вопросами, на которые успели дать ответ? Вот например вопрос, ответь:
+
+Какой командой посмотреть содержимое каталога в астра линукс?
+
+
+2023-09-24 15:07:05,433 ;;; ERROR ;;; функция timer_manager вызвала ошибку object of type 'filter' has no len()
+2023-09-24 15:08:12,529 ;;; INFO ;;; Stop signal received (SIGTERM). Exiting...
+2023-09-24 15:08:14,477 ;;; INFO ;;; Stopped 16 HandlerTasks
+2023-09-24 15:08:14,478 ;;; INFO ;;; PingTask stopped
+2023-09-24 15:08:14,478 ;;; INFO ;;; Disconnected
+2023-09-24 15:08:14,479 ;;; INFO ;;; NetworkTask stopped
+2023-09-24 15:08:14,479 ;;; INFO ;;; Session stopped
+2023-09-24 15:09:28,317 ;;; INFO ;;; запуск бота
+2023-09-24 15:09:28,453 ;;; INFO ;;; Connecting...
+2023-09-24 15:09:28,456 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 15:09:28,457 ;;; INFO ;;; NetworkTask started
+2023-09-24 15:09:28,693 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 15:09:28,694 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 15:09:28,694 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-09-24 15:09:28,694 ;;; INFO ;;; Session started
+2023-09-24 15:09:28,696 ;;; INFO ;;; PingTask started
+2023-09-24 15:09:30,393 ;;; INFO ;;; Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-24 15:09:30,394 ;;; INFO ;;; NumExpr defaulting to 8 threads.
+2023-09-24 15:09:30,745 ;;; INFO ;;; [my_account_adam] [LOAD] MessageHandler("private_message_handler") in group 0 from "plugins.handlers"
+2023-09-24 15:09:30,745 ;;; INFO ;;; [my_account_adam] [LOAD] MessageHandler("group_message_handler") in group 0 from "plugins.handlers"
+2023-09-24 15:09:30,746 ;;; INFO ;;; [my_account_adam] [LOAD] RawUpdateHandler("raw_updates_handler") in group 0 from "plugins.handlers"
+2023-09-24 15:09:30,746 ;;; INFO ;;; [my_account_adam] Successfully loaded 3 plugins from "plugins"
+2023-09-24 15:09:30,746 ;;; INFO ;;; Started 16 HandlerTasks
+2023-09-24 15:14:04,780 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operators_chat https://t.me/+DOeePhU57CVmZDAy
+2023-09-24 15:14:05,026 ;;; INFO ;;; вызвана функция set_operator_chat с чат id: -1001660039773 и юзером None
+2023-09-24 15:14:40,283 ;;; INFO ;;; сработал group_message_handler на сообщение: Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил
+2023-09-24 15:14:40,283 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:14:40,285 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:14:40,286 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:14:40,286 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:14:40,288 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:14:40,288 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:14:40,289 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:14:40,289 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:14:44,875 ;;; INFO ;;; сработал group_message_handler на сообщение: он мог быть уточняющим,
+2023-09-24 15:14:44,875 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:14:44,877 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:14:44,879 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:14:44,879 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:14:44,881 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:14:44,881 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:14:44,882 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:14:44,882 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:14:50,854 ;;; INFO ;;; сработал group_message_handler на сообщение: Ну он же должен оператору весь контекст передавать, склеенный из истории переписки
+2023-09-24 15:14:50,854 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:14:50,856 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:14:50,857 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:14:50,858 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:14:50,859 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:14:50,860 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:14:50,861 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:14:50,861 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:14:57,458 ;;; INFO ;;; сработал group_message_handler на сообщение: А передавать конкретно raw переписку не надо
+2023-09-24 15:14:57,459 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:14:57,460 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:14:57,462 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:14:57,462 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:14:57,463 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:14:57,464 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:14:57,465 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:14:57,465 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:15:03,195 ;;; INFO ;;; сработал group_message_handler на сообщение: На вопросы, не связанные с предметом техподдержки - обучен не реагировать?
+2023-09-24 15:15:03,196 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:15:03,197 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:15:03,199 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:15:03,199 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:15:03,200 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:15:03,201 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:15:03,202 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:15:03,202 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:15:08,655 ;;; INFO ;;; сработал group_message_handler на сообщение: да умеет, бывают ложные срабатывания   но зато меньше пропускает технических вопросов
+2023-09-24 15:15:08,655 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:15:08,657 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:15:08,658 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:15:08,659 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:15:08,660 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:15:08,660 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:15:08,661 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:15:08,662 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:15:13,604 ;;; INFO ;;; сработал group_message_handler на сообщение: Ложные срабатывания - не страшно. Отловим и дополним системный промпт
+2023-09-24 15:15:13,605 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:15:13,606 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:15:13,608 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:15:13,608 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:15:13,609 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:15:13,610 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:15:13,611 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:15:13,611 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:15:18,804 ;;; INFO ;;; сработал group_message_handler на сообщение: А как с вопросами, на которые успели дать ответ? Вот например вопрос, ответь:
+2023-09-24 15:15:18,805 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:15:18,806 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:15:18,808 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:15:18,808 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:15:18,809 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:15:18,810 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:15:18,811 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:15:18,811 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:15:23,675 ;;; INFO ;;; сработал group_message_handler на сообщение: Какой командой посмотреть содержимое каталога в астра линукс?
+2023-09-24 15:15:23,676 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:15:23,678 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:15:23,679 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:15:23,680 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:15:23,681 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:15:23,681 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:15:23,682 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:15:23,683 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:19:07,651 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operator @aleksei_lsemenov
+2023-09-24 15:19:07,651 ;;; INFO ;;; вызвана функция set_operator с id: ['@aleksei_lsemenov']
+2023-09-24 15:19:19,614 ;;; INFO ;;; сработал group_message_handler на сообщение: ————————————————operator
+2023-09-24 15:19:19,614 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:19:19,616 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:19:19,617 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:19:19,617 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:19:19,618 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 15:19:19,619 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 15:19:33,177 ;;; INFO ;;; сработал private_message_handler на сообщение: /remove_operator @aleksei_lsemenov
+2023-09-24 15:19:33,178 ;;; INFO ;;; вызвана функция remove_operator с юзернеймами: ['@aleksei_lsemenov']
+2023-09-24 15:19:51,256 ;;; INFO ;;; сработал group_message_handler на сообщение: Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил
+2023-09-24 15:19:51,257 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:19:51,258 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:19:51,260 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:19:51,260 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:19:51,261 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:19:51,262 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:19:51,263 ;;; INFO ;;; функция get_chat_state вернула Operator
+2023-09-24 15:19:51,263 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:19:51,264 ;;; INFO ;;; вызвана функция timer_manager
+2023-09-24 15:19:51,406 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:19:51,408 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:19:51,408 ;;; INFO ;;; вызвана функция timer_iteration
+2023-09-24 15:19:51,504 ;;; INFO ;;; вызвана функция waiting_for_set_event с чат айди: -1001965935676
+2023-09-24 15:19:55,334 ;;; INFO ;;; сработал group_message_handler на сообщение: он мог быть уточняющим
+2023-09-24 15:19:55,335 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:19:55,336 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:19:55,337 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:19:55,338 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:19:55,339 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:19:55,339 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:19:55,340 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:19:55,340 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:19:59,762 ;;; INFO ;;; сработал group_message_handler на сообщение: А передавать конкретно raw переписку не надо
+2023-09-24 15:19:59,762 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:19:59,763 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:19:59,765 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:19:59,765 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:19:59,766 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:19:59,766 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:19:59,767 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:19:59,768 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:20:03,681 ;;; INFO ;;; сработал raw_updates_handler на UpdateChannelUserTyping
+2023-09-24 15:20:03,681 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:20:03,683 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:20:03,683 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Typing
+2023-09-24 15:20:03,753 ;;; INFO ;;; в чате ГосЭДО ДСП: Люблино работаем кто-то печатает
+2023-09-24 15:20:03,753 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:20:03,754 ;;; INFO ;;; функция timer_iteration вернула [True, True]
+2023-09-24 15:20:03,755 ;;; INFO ;;; вызвана функция timer_iteration
+2023-09-24 15:20:03,873 ;;; INFO ;;; вызвана функция waiting_for_set_event с чат айди: -1001965935676
+2023-09-24 15:20:04,332 ;;; INFO ;;; сработал group_message_handler на сообщение: Ложные срабатывания - не страшно. Отловим и дополним системный промпт
+2023-09-24 15:20:04,333 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:20:04,334 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:20:04,336 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:20:04,336 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:20:04,338 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:20:04,338 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:20:04,339 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:20:04,340 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:20:08,276 ;;; INFO ;;; сработал group_message_handler на сообщение: А как с вопросами, на которые успели дать ответ? Вот например вопрос, ответь:
+2023-09-24 15:20:08,277 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:20:08,278 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:20:08,280 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:20:08,280 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:20:08,281 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:20:08,282 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:20:08,283 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:20:08,283 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:20:11,037 ;;; INFO ;;; сработал raw_updates_handler на UpdateChannelUserTyping
+2023-09-24 15:20:11,037 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:20:11,038 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:20:11,039 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Typing
+2023-09-24 15:20:11,103 ;;; INFO ;;; в чате ГосЭДО ДСП: Люблино работаем кто-то печатает
+2023-09-24 15:20:11,104 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:20:11,105 ;;; INFO ;;; функция timer_iteration вернула [True, True]
+2023-09-24 15:20:11,105 ;;; INFO ;;; вызвана функция timer_iteration
+2023-09-24 15:20:11,200 ;;; INFO ;;; вызвана функция waiting_for_set_event с чат айди: -1001965935676
+2023-09-24 15:20:11,853 ;;; INFO ;;; сработал group_message_handler на сообщение: Какой командой посмотреть содержимое каталога в астра линукс?
+2023-09-24 15:20:11,854 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 15:20:11,855 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 15:20:11,856 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 15:20:11,857 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 15:20:11,858 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 15:20:11,858 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 15:20:11,859 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 15:20:11,859 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 15:21:11,330 ;;; INFO ;;; функция timer_iteration вернула [False, True]
+2023-09-24 15:21:11,331 ;;; INFO ;;; В чате ГосЭДО ДСП: Люблино работаем нужна классификация
+2023-09-24 15:21:11,331 ;;; INFO ;;; вызвана функция get_user_messages
+2023-09-24 15:21:11,705 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 15:21:11,705 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 15:21:11,706 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 15:21:11,706 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 15:21:11,706 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 15:21:11,707 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 15:21:11,707 ;;; INFO ;;; функция get_user_messages вернула ['Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил\n\nон мог быть уточняющим\n\nА передавать конкретно raw переписку не надо\n\nЛожные срабатывания - не страшно. Отловим и дополним системный промпт\n\nА как с вопросами, на которые успели дать ответ? Вот например вопрос, ответь:\n\nКакой командой посмотреть содержимое каталога в астра линукс?\n\n', False]
+2023-09-24 15:21:11,707 ;;; INFO ;;; вызвана функция num_tokens_from_string
+2023-09-24 15:21:16,934 ;;; INFO ;;; функция num_tokens_from_string вернула 162
+2023-09-24 15:21:16,934 ;;; INFO ;;; вызвана функция get_msg_by_id
+2023-09-24 15:21:17,177 ;;; INFO ;;; вызвана функция is_simple_media
+2023-09-24 15:21:17,177 ;;; INFO ;;; сработала функция discussion_classifier
+2023-09-24 15:21:18,679 ;;; INFO ;;; message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=631 request_id=a2ad610c9e4bc4413febaa7d06ca95d3 response_code=200
+2023-09-24 15:21:18,681 ;;; INFO ;;; функция discussion_classifier вернула 1
+2023-09-24 15:21:18,681 ;;; INFO ;;; содержимоме user_messages Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил
+
+он мог быть уточняющим
+
+А передавать конкретно raw переписку не надо
+
+Ложные срабатывания - не страшно. Отловим и дополним системный промпт
+
+А как с вопросами, на которые успели дать ответ? Вот например вопрос, ответь:
+
+Какой командой посмотреть содержимое каталога в астра линукс?
+
+
+2023-09-24 15:21:18,681 ;;; INFO ;;; содержимоме user_messages Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил
+
+он мог быть уточняющим
+
+А передавать конкретно raw переписку не надо
+
+Ложные срабатывания - не страшно. Отловим и дополним системный промпт
+
+А как с вопросами, на которые успели дать ответ? Вот например вопрос, ответь:
+
+Какой командой посмотреть содержимое каталога в астра линукс?
+
+
+2023-09-24 15:21:18,687 ;;; INFO ;;; содержимое новго  user_messages Р
+2023-09-24 15:21:18,687 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Waiting_127
+2023-09-24 15:21:18,689 ;;; INFO ;;; В чате <a href="">ГосЭДО ДСП: Люблино работаем</a>  пользователю требуется помощь:
+Р
+
+2023-09-24 15:21:18,689 ;;; INFO ;;; вызвана функция send_message_bot
+2023-09-24 15:21:18,690 ;;; INFO ;;; вызвана функция get_bot_answer_chat_state
+2023-09-24 15:21:18,691 ;;; INFO ;;; функция get_bot_answer_chat_state вернула None
+2023-09-24 15:21:19,316 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 15:21:21,174 ;;; INFO ;;; функция send_message_bot вернула 72
+2023-09-24 15:21:21,174 ;;; INFO ;;; вызвана функция get_answer_bot
+2023-09-24 15:21:21,517 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 15:21:24,471 ;;; WARNING ;;; [my_account_adam] Waiting for 27 seconds before continuing (required by "messages.GetHistory")
+2023-09-24 15:21:27,143 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 15:21:51,546 ;;; INFO ;;; функция get_answer_bot вернула Ваш вопрос не содержит достаточной информации для формирования ответа. Пожалуйста, уточните ваш вопрос или проблему, чтобы я мог вам помочь.
+2023-09-24 15:21:51,546 ;;; INFO ;;; Вызвана функция send_info_to_operators с юзернеймом -1001660039773
+2023-09-24 16:02:44,926 ;;; INFO ;;; NetworkTask stopped
+2023-09-24 16:02:44,927 ;;; INFO ;;; PingTask stopped
+2023-09-24 16:02:44,927 ;;; INFO ;;; Disconnected
+2023-09-24 16:02:44,928 ;;; INFO ;;; Session stopped
+2023-09-24 16:02:44,928 ;;; INFO ;;; Connecting...
+2023-09-24 16:02:44,930 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 16:02:44,930 ;;; INFO ;;; NetworkTask started
+2023-09-24 16:02:45,217 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 16:02:45,218 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 16:02:45,218 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-09-24 16:02:45,218 ;;; INFO ;;; Session started
+2023-09-24 16:02:45,219 ;;; INFO ;;; PingTask started
+2023-09-24 16:44:58,535 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operators_chat https://t.me/+DOeePhU57CVmZDAy
+2023-09-24 16:44:58,694 ;;; INFO ;;; вызвана функция set_operator_chat с чат id: -1001660039773 и юзером None
+2023-09-24 16:45:04,458 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operator @aleksei_lsemenov
+2023-09-24 16:45:04,459 ;;; INFO ;;; вызвана функция set_operator с id: ['@aleksei_lsemenov']
+2023-09-24 16:45:13,219 ;;; INFO ;;; сработал group_message_handler на сообщение: ————————————————operator
+2023-09-24 16:45:13,219 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 16:45:13,221 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 16:45:13,223 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 16:45:13,223 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 16:45:13,224 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 16:45:13,224 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 16:45:24,549 ;;; INFO ;;; сработал private_message_handler на сообщение: /remove_operator @aleksei_lsemenov
+2023-09-24 16:45:24,550 ;;; INFO ;;; вызвана функция remove_operator с юзернеймами: ['@aleksei_lsemenov']
+2023-09-24 16:45:32,219 ;;; INFO ;;; сработал group_message_handler на сообщение: Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил
+2023-09-24 16:45:32,219 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 16:45:32,221 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 16:45:32,223 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 16:45:32,224 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 16:45:32,225 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 16:45:32,226 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 16:45:32,227 ;;; INFO ;;; функция get_chat_state вернула Operator
+2023-09-24 16:45:32,228 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 16:45:32,229 ;;; INFO ;;; вызвана функция timer_manager
+2023-09-24 16:45:32,302 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 16:45:32,304 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 16:45:32,304 ;;; INFO ;;; вызвана функция timer_iteration
+2023-09-24 16:45:32,376 ;;; INFO ;;; вызвана функция waiting_for_set_event с чат айди: -1001965935676
+2023-09-24 16:45:37,114 ;;; INFO ;;; сработал group_message_handler на сообщение: он мог быть уточняющим
+2023-09-24 16:45:37,115 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 16:45:37,117 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 16:45:37,119 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 16:45:37,119 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 16:45:37,121 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 16:45:37,122 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 16:45:37,123 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 16:45:37,124 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 16:45:42,300 ;;; INFO ;;; сработал group_message_handler на сообщение: А передавать конкретно raw переписку не надо
+2023-09-24 16:45:42,300 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 16:45:42,302 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 16:45:42,303 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 16:45:42,303 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 16:45:42,305 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 16:45:42,305 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 16:45:42,306 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 16:45:42,306 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 16:45:47,784 ;;; INFO ;;; сработал group_message_handler на сообщение: А передавать конкретно raw переписку не надо
+2023-09-24 16:45:47,785 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 16:45:47,787 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 16:45:47,789 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 16:45:47,789 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 16:45:47,790 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 16:45:47,790 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 16:45:47,792 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 16:45:47,792 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 16:45:52,213 ;;; INFO ;;; сработал group_message_handler на сообщение: А как с вопросами, на которые успели дать ответ? Вот например вопрос, ответь:
+2023-09-24 16:45:52,213 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 16:45:52,215 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 16:45:52,217 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 16:45:52,217 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 16:45:52,218 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 16:45:52,219 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 16:45:52,220 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 16:45:52,220 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 16:45:55,202 ;;; INFO ;;; сработал raw_updates_handler на UpdateChannelUserTyping
+2023-09-24 16:45:55,202 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 16:45:55,204 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 16:45:55,204 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Typing
+2023-09-24 16:45:55,266 ;;; INFO ;;; в чате ГосЭДО ДСП: Люблино работаем кто-то печатает
+2023-09-24 16:45:55,267 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 16:45:55,268 ;;; INFO ;;; функция timer_iteration вернула [True, True]
+2023-09-24 16:45:55,269 ;;; INFO ;;; вызвана функция timer_iteration
+2023-09-24 16:45:55,442 ;;; INFO ;;; вызвана функция waiting_for_set_event с чат айди: -1001965935676
+2023-09-24 16:45:55,927 ;;; INFO ;;; сработал group_message_handler на сообщение: Какой командой посмотреть содержимое каталога в астра линукс?
+2023-09-24 16:45:55,928 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 16:45:55,929 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 16:45:55,931 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 16:45:55,932 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 16:45:55,933 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 16:45:55,933 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 16:45:55,935 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 16:45:55,935 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 16:46:55,575 ;;; INFO ;;; функция timer_iteration вернула [False, True]
+2023-09-24 16:46:55,575 ;;; INFO ;;; В чате ГосЭДО ДСП: Люблино работаем нужна классификация
+2023-09-24 16:46:55,576 ;;; INFO ;;; вызвана функция get_user_messages
+2023-09-24 16:46:55,956 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 16:46:55,957 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 16:46:55,957 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 16:46:55,957 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 16:46:55,958 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 16:46:55,958 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 16:46:55,958 ;;; INFO ;;; функция get_user_messages вернула ['Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил\n\nон мог быть уточняющим\n\nА передавать конкретно raw переписку не надо\n\nА передавать конкретно raw переписку не надо\n\nА как с вопросами, на которые успели дать ответ? Вот например вопрос, ответь:\n\nКакой командой посмотреть содержимое каталога в астра линукс?\n\n', False]
+2023-09-24 16:46:55,959 ;;; INFO ;;; вызвана функция num_tokens_from_string
+2023-09-24 16:46:55,959 ;;; INFO ;;; функция num_tokens_from_string вернула 148
+2023-09-24 16:46:55,960 ;;; INFO ;;; вызвана функция get_msg_by_id
+2023-09-24 16:46:56,122 ;;; INFO ;;; вызвана функция is_simple_media
+2023-09-24 16:46:56,123 ;;; INFO ;;; сработала функция discussion_classifier
+2023-09-24 16:46:57,952 ;;; INFO ;;; message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=684 request_id=d6487ba01fe405dc740680c4d0236ce7 response_code=200
+2023-09-24 16:46:57,953 ;;; INFO ;;; функция discussion_classifier вернула 1
+2023-09-24 16:46:57,953 ;;; INFO ;;; содержимоме user_messages Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил
+
+он мог быть уточняющим
+
+А передавать конкретно raw переписку не надо
+
+А передавать конкретно raw переписку не надо
+
+А как с вопросами, на которые успели дать ответ? Вот например вопрос, ответь:
+
+Какой командой посмотреть содержимое каталога в астра линукс?
+
+
+2023-09-24 16:46:57,954 ;;; INFO ;;; содержимоме user_messages Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил
+
+он мог быть уточняющим
+
+А передавать конкретно raw переписку не надо
+
+А передавать конкретно raw переписку не надо
+
+А как с вопросами, на которые успели дать ответ? Вот например вопрос, ответь:
+
+Какой командой посмотреть содержимое каталога в астра линукс?
+
+
+2023-09-24 16:46:57,954 ;;; INFO ;;; содержимое новго  user_messages Р
+2023-09-24 16:46:57,954 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Waiting_134
+2023-09-24 16:46:57,956 ;;; INFO ;;; В чате <a href="">ГосЭДО ДСП: Люблино работаем</a>  пользователю требуется помощь:
+Р
+
+2023-09-24 16:46:57,956 ;;; INFO ;;; вызвана функция send_message_bot
+2023-09-24 16:46:57,956 ;;; INFO ;;; вызвана функция get_bot_answer_chat_state
+2023-09-24 16:46:57,958 ;;; INFO ;;; функция get_bot_answer_chat_state вернула None
+2023-09-24 16:46:58,510 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 16:47:00,200 ;;; INFO ;;; функция send_message_bot вернула 83
+2023-09-24 16:47:00,201 ;;; INFO ;;; вызвана функция get_answer_bot
+2023-09-24 16:47:00,429 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 16:47:02,352 ;;; WARNING ;;; [my_account_adam] Waiting for 29 seconds before continuing (required by "messages.GetHistory")
+2023-09-24 16:47:08,956 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 16:47:31,482 ;;; INFO ;;; функция get_answer_bot вернула Ваш вопрос не содержит достаточной информации для формирования ответа. Пожалуйста, уточните, что именно вас интересует в контексте ГосЭДО, Linux, администрирования систем документооборота МЭДО,ГИС ТОР СЭД.
+2023-09-24 16:47:31,482 ;;; INFO ;;; Вызвана функция send_info_to_operators с юзернеймом -1001660039773
+2023-09-24 16:51:27,579 ;;; INFO ;;; Stop signal received (SIGTERM). Exiting...
+2023-09-24 16:51:28,455 ;;; INFO ;;; Stopped 16 HandlerTasks
+2023-09-24 16:51:28,456 ;;; INFO ;;; PingTask stopped
+2023-09-24 16:51:28,456 ;;; INFO ;;; Disconnected
+2023-09-24 16:51:28,457 ;;; INFO ;;; NetworkTask stopped
+2023-09-24 16:51:28,457 ;;; INFO ;;; Session stopped
+2023-09-24 16:55:49,820 ;;; INFO ;;; запуск бота
+2023-09-24 16:55:49,966 ;;; INFO ;;; Connecting...
+2023-09-24 16:55:49,968 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 16:55:49,970 ;;; INFO ;;; NetworkTask started
+2023-09-24 16:55:50,180 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 16:55:50,180 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 16:55:50,181 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-09-24 16:55:50,181 ;;; INFO ;;; Session started
+2023-09-24 16:55:50,183 ;;; INFO ;;; PingTask started
+2023-09-24 16:55:52,038 ;;; INFO ;;; Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-24 16:55:52,039 ;;; INFO ;;; NumExpr defaulting to 8 threads.
+2023-09-24 16:55:52,434 ;;; INFO ;;; [my_account_adam] [LOAD] MessageHandler("private_message_handler") in group 0 from "plugins.handlers"
+2023-09-24 16:55:52,435 ;;; INFO ;;; [my_account_adam] [LOAD] MessageHandler("group_message_handler") in group 0 from "plugins.handlers"
+2023-09-24 16:55:52,435 ;;; INFO ;;; [my_account_adam] [LOAD] RawUpdateHandler("raw_updates_handler") in group 0 from "plugins.handlers"
+2023-09-24 16:55:52,435 ;;; INFO ;;; [my_account_adam] Successfully loaded 3 plugins from "plugins"
+2023-09-24 16:55:52,436 ;;; INFO ;;; Started 16 HandlerTasks
+2023-09-24 16:57:12,255 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operators_chat https://t.me/+DOeePhU57CVmZDAy
+2023-09-24 16:57:12,445 ;;; INFO ;;; вызвана функция set_operator_chat с чат id: -1001660039773 и юзером None
+2023-09-24 16:57:17,149 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operator @aleksei_lsemenov
+2023-09-24 16:57:17,150 ;;; INFO ;;; вызвана функция set_operator с id: ['@aleksei_lsemenov']
+2023-09-24 16:57:22,562 ;;; INFO ;;; сработал group_message_handler на сообщение: ————————————————operator
+2023-09-24 16:57:22,563 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 16:57:22,564 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 16:57:22,566 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 16:57:22,566 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 16:57:22,568 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 16:57:22,568 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 16:57:41,470 ;;; INFO ;;; сработал private_message_handler на сообщение: /remove_operator @aleksei_lsemenov
+2023-09-24 16:57:41,471 ;;; INFO ;;; вызвана функция remove_operator с юзернеймами: ['@aleksei_lsemenov']
+2023-09-24 16:57:48,661 ;;; INFO ;;; сработал group_message_handler на сообщение: Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил
+2023-09-24 16:57:48,661 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 16:57:48,663 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 16:57:48,665 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 16:57:48,665 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 16:57:48,666 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 16:57:48,667 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 16:57:48,668 ;;; INFO ;;; функция get_chat_state вернула Operator
+2023-09-24 16:57:48,668 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 16:57:48,669 ;;; INFO ;;; вызвана функция timer_manager
+2023-09-24 16:57:48,817 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 16:57:48,819 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 16:57:48,819 ;;; INFO ;;; вызвана функция timer_iteration
+2023-09-24 16:57:48,899 ;;; INFO ;;; вызвана функция waiting_for_set_event с чат айди: -1001965935676
+2023-09-24 16:57:54,088 ;;; INFO ;;; сработал group_message_handler на сообщение: А передавать конкретно raw переписку не надо
+2023-09-24 16:57:54,088 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 16:57:54,090 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 16:57:54,091 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 16:57:54,092 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 16:57:54,093 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 16:57:54,094 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 16:57:54,095 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 16:57:54,096 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 16:57:58,648 ;;; INFO ;;; сработал group_message_handler на сообщение: Какой командой посмотреть содержимое каталога в астра линукс?
+2023-09-24 16:57:58,649 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 16:57:58,650 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 16:57:58,652 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 16:57:58,652 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 16:57:58,654 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 16:57:58,654 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 16:57:58,656 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 16:57:58,657 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 16:58:48,923 ;;; INFO ;;; функция timer_iteration вернула [False, True]
+2023-09-24 16:58:48,924 ;;; INFO ;;; В чате ГосЭДО ДСП: Люблино работаем нужна классификация
+2023-09-24 16:58:48,924 ;;; INFO ;;; вызвана функция get_user_messages
+2023-09-24 16:58:49,218 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 16:58:49,218 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 16:58:49,219 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 16:58:49,219 ;;; INFO ;;; функция get_user_messages вернула ['Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил\n\nА передавать конкретно raw переписку не надо\n\nКакой командой посмотреть содержимое каталога в астра линукс?\n\n', False]
+2023-09-24 16:58:49,219 ;;; INFO ;;; вызвана функция num_tokens_from_string
+2023-09-24 16:58:51,720 ;;; INFO ;;; функция num_tokens_from_string вернула 89
+2023-09-24 16:58:51,721 ;;; INFO ;;; вызвана функция get_msg_by_id
+2023-09-24 16:58:51,863 ;;; INFO ;;; вызвана функция is_simple_media
+2023-09-24 16:58:51,863 ;;; INFO ;;; сработала функция discussion_classifier
+2023-09-24 16:58:52,617 ;;; INFO ;;; message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=437 request_id=74b51eb4a80a0e3c9286f2f4ac95381b response_code=200
+2023-09-24 16:58:52,620 ;;; INFO ;;; функция discussion_classifier вернула 1
+2023-09-24 16:58:52,620 ;;; INFO ;;; содержимоме user_messages Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил
+
+А передавать конкретно raw переписку не надо
+
+Какой командой посмотреть содержимое каталога в астра линукс?
+
+
+2023-09-24 16:58:52,621 ;;; INFO ;;; содержимоме replicas  ['Р']
+2023-09-24 16:58:52,626 ;;; INFO ;;; содержимоме replicas  ['Р']
+2023-09-24 16:58:52,627 ;;; INFO ;;; содержимое новго  user_messages Р
+2023-09-24 16:58:52,628 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Waiting_141
+2023-09-24 16:58:52,630 ;;; INFO ;;; В чате <a href="">ГосЭДО ДСП: Люблино работаем</a>  пользователю требуется помощь:
+Р
+
+2023-09-24 16:58:52,630 ;;; INFO ;;; вызвана функция send_message_bot
+2023-09-24 16:58:52,630 ;;; INFO ;;; вызвана функция get_bot_answer_chat_state
+2023-09-24 16:58:52,632 ;;; INFO ;;; функция get_bot_answer_chat_state вернула None
+2023-09-24 16:58:53,366 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 16:58:55,131 ;;; INFO ;;; функция send_message_bot вернула 94
+2023-09-24 16:58:55,131 ;;; INFO ;;; вызвана функция get_answer_bot
+2023-09-24 16:58:55,367 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 16:58:57,922 ;;; WARNING ;;; [my_account_adam] Waiting for 28 seconds before continuing (required by "messages.GetHistory")
+2023-09-24 16:59:09,077 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 16:59:26,011 ;;; INFO ;;; функция get_answer_bot вернула Описание вопроса: Пользователь оставил сообщение, состоящее из одной буквы "р". Это не представляет собой конкретный вопрос или проблему, связанную с ГосЭДО, Linux, администрированием систем документооборота МЭДО,ГИС ТОР СЭД.  Ответ на вопрос: К сожалению, ваше сообщение не содержит конкретного вопроса или проблемы. Пожалуйста, уточните ваш запрос, чтобы я мог вам помочь.
+2023-09-24 16:59:26,012 ;;; INFO ;;; Вызвана функция send_info_to_operators с юзернеймом -1001660039773
+2023-09-24 17:06:06,679 ;;; INFO ;;; Stop signal received (SIGTERM). Exiting...
+2023-09-24 17:06:07,252 ;;; INFO ;;; Stopped 16 HandlerTasks
+2023-09-24 17:06:07,253 ;;; INFO ;;; PingTask stopped
+2023-09-24 17:06:07,253 ;;; INFO ;;; Disconnected
+2023-09-24 17:06:07,254 ;;; INFO ;;; NetworkTask stopped
+2023-09-24 17:06:07,254 ;;; INFO ;;; Session stopped
+2023-09-24 17:06:33,150 ;;; INFO ;;; запуск бота
+2023-09-24 17:06:33,285 ;;; INFO ;;; Connecting...
+2023-09-24 17:06:33,288 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 17:06:33,289 ;;; INFO ;;; NetworkTask started
+2023-09-24 17:06:33,581 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 17:06:33,581 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 17:06:33,582 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-09-24 17:06:33,582 ;;; INFO ;;; Session started
+2023-09-24 17:06:33,584 ;;; INFO ;;; PingTask started
+2023-09-24 17:06:35,748 ;;; INFO ;;; Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-24 17:06:35,749 ;;; INFO ;;; NumExpr defaulting to 8 threads.
+2023-09-24 17:06:36,218 ;;; INFO ;;; [my_account_adam] [LOAD] MessageHandler("private_message_handler") in group 0 from "plugins.handlers"
+2023-09-24 17:06:36,219 ;;; INFO ;;; [my_account_adam] [LOAD] MessageHandler("group_message_handler") in group 0 from "plugins.handlers"
+2023-09-24 17:06:36,219 ;;; INFO ;;; [my_account_adam] [LOAD] RawUpdateHandler("raw_updates_handler") in group 0 from "plugins.handlers"
+2023-09-24 17:06:36,220 ;;; INFO ;;; [my_account_adam] Successfully loaded 3 plugins from "plugins"
+2023-09-24 17:06:36,220 ;;; INFO ;;; Started 16 HandlerTasks
+2023-09-24 17:07:42,432 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operators_chat https://t.me/+DOeePhU57CVmZDAy
+2023-09-24 17:07:42,690 ;;; INFO ;;; вызвана функция set_operator_chat с чат id: -1001660039773 и юзером None
+2023-09-24 17:07:48,595 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operator @aleksei_lsemenov
+2023-09-24 17:07:48,596 ;;; INFO ;;; вызвана функция set_operator с id: ['@aleksei_lsemenov']
+2023-09-24 17:07:56,344 ;;; INFO ;;; сработал group_message_handler на сообщение: ————————————————operator
+2023-09-24 17:07:56,344 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 17:07:56,346 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 17:07:56,348 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 17:07:56,349 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 17:07:56,350 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 17:07:56,350 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 17:08:07,796 ;;; INFO ;;; сработал private_message_handler на сообщение: /remove_operator @aleksei_lsemenov
+2023-09-24 17:08:07,797 ;;; INFO ;;; вызвана функция remove_operator с юзернеймами: ['@aleksei_lsemenov']
+2023-09-24 17:08:23,949 ;;; INFO ;;; сработал group_message_handler на сообщение: Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил
+2023-09-24 17:08:23,950 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 17:08:23,951 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 17:08:23,953 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 17:08:23,953 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 17:08:23,955 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 17:08:23,955 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 17:08:23,957 ;;; INFO ;;; функция get_chat_state вернула Operator
+2023-09-24 17:08:23,957 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 17:08:23,959 ;;; INFO ;;; вызвана функция timer_manager
+2023-09-24 17:08:24,046 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 17:08:24,048 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 17:08:24,048 ;;; INFO ;;; вызвана функция timer_iteration
+2023-09-24 17:08:24,156 ;;; INFO ;;; вызвана функция waiting_for_set_event с чат айди: -1001965935676
+2023-09-24 17:08:29,118 ;;; INFO ;;; сработал group_message_handler на сообщение: А передавать конкретно raw переписку не надо
+2023-09-24 17:08:29,119 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 17:08:29,120 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 17:08:29,122 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 17:08:29,123 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 17:08:29,124 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 17:08:29,125 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 17:08:29,126 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 17:08:29,126 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 17:08:32,882 ;;; INFO ;;; сработал group_message_handler на сообщение: Какой командой посмотреть содержимое каталога в астра линукс?
+2023-09-24 17:08:32,883 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 17:08:32,884 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 17:08:32,886 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 17:08:32,886 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 17:08:32,887 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 17:08:32,887 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 17:08:32,889 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 17:08:32,889 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 17:09:24,171 ;;; INFO ;;; функция timer_iteration вернула [False, True]
+2023-09-24 17:09:24,171 ;;; INFO ;;; В чате ГосЭДО ДСП: Люблино работаем нужна классификация
+2023-09-24 17:09:24,171 ;;; INFO ;;; вызвана функция get_user_messages
+2023-09-24 17:09:24,488 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 17:09:24,489 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 17:09:24,489 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 17:09:24,489 ;;; INFO ;;; функция get_user_messages вернула ['Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил\n\nА передавать конкретно raw переписку не надо\n\nКакой командой посмотреть содержимое каталога в астра линукс?\n\n', False]
+2023-09-24 17:09:24,490 ;;; INFO ;;; вызвана функция num_tokens_from_string
+2023-09-24 17:09:27,039 ;;; INFO ;;; функция num_tokens_from_string вернула 89
+2023-09-24 17:09:27,040 ;;; INFO ;;; вызвана функция get_msg_by_id
+2023-09-24 17:09:27,182 ;;; INFO ;;; вызвана функция is_simple_media
+2023-09-24 17:09:27,183 ;;; INFO ;;; сработала функция discussion_classifier
+2023-09-24 17:09:28,106 ;;; INFO ;;; message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=470 request_id=cfcf702d2c8166e6b7842d430545b954 response_code=200
+2023-09-24 17:09:28,108 ;;; INFO ;;; функция discussion_classifier вернула 1
+2023-09-24 17:09:28,109 ;;; INFO ;;; содержимоме user_messages Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил
+
+А передавать конкретно raw переписку не надо
+
+Какой командой посмотреть содержимое каталога в астра линукс?
+
+ <class 'str'> 
+2023-09-24 17:09:28,109 ;;; INFO ;;; содержимоме user_messages[0] Р <class 'str'> 
+2023-09-24 17:09:28,110 ;;; INFO ;;; содержимоме replicas  ['Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил', 'А передавать конкретно raw переписку не надо', 'Какой командой посмотреть содержимое каталога в астра линукс?', '']
+2023-09-24 17:09:28,117 ;;; INFO ;;; содержимоме filtered_replicas  ['Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил', 'А передавать конкретно raw переписку не надо', 'Какой командой посмотреть содержимое каталога в астра линукс?', '']
+2023-09-24 17:09:28,117 ;;; INFO ;;; содержимое новго  user_messages Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил А передавать конкретно raw переписку не надо Какой командой посмотреть содержимое каталога в астра линукс? 
+2023-09-24 17:09:28,117 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Waiting_145
+2023-09-24 17:09:28,119 ;;; INFO ;;; В чате <a href="">ГосЭДО ДСП: Люблино работаем</a>  пользователю требуется помощь:
+Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил А передавать конкретно raw переписку не надо Какой командой посмотреть содержимое каталога в астра линукс? 
+
+2023-09-24 17:09:28,120 ;;; INFO ;;; вызвана функция send_message_bot
+2023-09-24 17:09:28,120 ;;; INFO ;;; вызвана функция get_bot_answer_chat_state
+2023-09-24 17:09:28,121 ;;; INFO ;;; функция get_bot_answer_chat_state вернула None
+2023-09-24 17:09:28,574 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 17:09:30,375 ;;; INFO ;;; функция send_message_bot вернула 105
+2023-09-24 17:09:30,375 ;;; INFO ;;; вызвана функция get_answer_bot
+2023-09-24 17:09:30,591 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 17:09:32,583 ;;; WARNING ;;; [my_account_adam] Waiting for 29 seconds before continuing (required by "messages.GetHistory")
+2023-09-24 17:09:40,624 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 17:10:01,680 ;;; INFO ;;; функция get_answer_bot вернула Описание вопроса: Пользователь хочет узнать, какой командой можно посмотреть содержимое каталога в Astra Linux.  Ответ на вопрос: - Для просмотра содержимого каталога в Astra Linux, как и в большинстве дистрибутивов Linux, используется команда "ls". Если вы хотите увидеть дополнительную информацию о файлах и каталогах, вы можете использовать команду "ls -l".
+2023-09-24 17:10:01,680 ;;; INFO ;;; Вызвана функция send_info_to_operators с юзернеймом -1001660039773
+2023-09-24 17:11:07,463 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operator @aleksei_lsemenov
+2023-09-24 17:11:07,464 ;;; INFO ;;; вызвана функция set_operator с id: ['@aleksei_lsemenov']
+2023-09-24 17:11:15,238 ;;; INFO ;;; сработал group_message_handler на сообщение: ————————————————operator
+2023-09-24 17:11:15,238 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 17:11:15,240 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 17:11:15,242 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 17:11:15,243 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 17:11:15,244 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 17:11:15,245 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 17:11:32,014 ;;; INFO ;;; сработал private_message_handler на сообщение: /remove_operator @aleksei_lsemenov
+2023-09-24 17:11:32,014 ;;; INFO ;;; вызвана функция remove_operator с юзернеймами: ['@aleksei_lsemenov']
+2023-09-24 17:11:52,907 ;;; INFO ;;; сработал group_message_handler на сообщение: Добрый день! Проверяем.
+2023-09-24 17:11:52,907 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 17:11:52,909 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 17:11:52,911 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 17:11:52,911 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 17:11:52,913 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 17:11:52,913 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 17:11:52,914 ;;; INFO ;;; функция get_chat_state вернула Operator
+2023-09-24 17:11:52,914 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 17:11:52,916 ;;; INFO ;;; вызвана функция timer_manager
+2023-09-24 17:11:53,048 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 17:11:53,049 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 17:11:53,049 ;;; INFO ;;; вызвана функция timer_iteration
+2023-09-24 17:11:53,143 ;;; INFO ;;; вызвана функция waiting_for_set_event с чат айди: -1001965935676
+2023-09-24 17:11:58,301 ;;; INFO ;;; сработал group_message_handler на сообщение: Подключе восстановлено.
+2023-09-24 17:11:58,302 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 17:11:58,303 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 17:11:58,305 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 17:11:58,305 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 17:11:58,306 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 17:11:58,307 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 17:11:58,308 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 17:11:58,309 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 17:12:02,535 ;;; INFO ;;; сработал group_message_handler на сообщение: Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап
+2023-09-24 17:12:02,536 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 17:12:02,537 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 17:12:02,538 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 17:12:02,538 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 17:12:02,540 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 17:12:02,540 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 17:12:02,541 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 17:12:02,542 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 17:12:53,160 ;;; INFO ;;; функция timer_iteration вернула [False, True]
+2023-09-24 17:12:53,161 ;;; INFO ;;; В чате ГосЭДО ДСП: Люблино работаем нужна классификация
+2023-09-24 17:12:53,161 ;;; INFO ;;; вызвана функция get_user_messages
+2023-09-24 17:12:53,456 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 17:12:53,456 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 17:12:53,456 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 17:12:53,457 ;;; INFO ;;; функция get_user_messages вернула ['Добрый день! Проверяем.\n\nПодключе восстановлено.\n\nПодскажите команду  для проверки и  переподключения при обрыве связи Континента Ап\n\n', False]
+2023-09-24 17:12:53,457 ;;; INFO ;;; вызвана функция num_tokens_from_string
+2023-09-24 17:12:53,457 ;;; INFO ;;; функция num_tokens_from_string вернула 55
+2023-09-24 17:12:53,458 ;;; INFO ;;; вызвана функция get_msg_by_id
+2023-09-24 17:12:53,585 ;;; INFO ;;; вызвана функция is_simple_media
+2023-09-24 17:12:53,586 ;;; INFO ;;; сработала функция discussion_classifier
+2023-09-24 17:12:54,896 ;;; INFO ;;; message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=150 request_id=3eded52e255c2dcaed5a49b91f55fd4c response_code=200
+2023-09-24 17:12:54,897 ;;; INFO ;;; функция discussion_classifier вернула 1
+2023-09-24 17:12:54,897 ;;; INFO ;;; содержимоме user_messages Добрый день! Проверяем.
+
+Подключе восстановлено.
+
+Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап
+
+ <class 'str'> 
+2023-09-24 17:12:54,898 ;;; INFO ;;; содержимоме user_messages[0] Д <class 'str'> 
+2023-09-24 17:12:54,898 ;;; INFO ;;; содержимоме replicas  ['Добрый день! Проверяем.', 'Подключе восстановлено.', 'Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап', '']
+2023-09-24 17:12:54,898 ;;; INFO ;;; содержимоме filtered_replicas  ['Добрый день! Проверяем.', 'Подключе восстановлено.', 'Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап', '']
+2023-09-24 17:12:54,899 ;;; INFO ;;; содержимое новго  user_messages Добрый день! Проверяем. Подключе восстановлено. Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап 
+2023-09-24 17:12:54,899 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Waiting_149
+2023-09-24 17:12:54,901 ;;; INFO ;;; В чате <a href="">ГосЭДО ДСП: Люблино работаем</a>  пользователю требуется помощь:
+Добрый день! Проверяем. Подключе восстановлено. Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап 
+
+2023-09-24 17:12:54,901 ;;; INFO ;;; вызвана функция send_message_bot
+2023-09-24 17:12:54,901 ;;; INFO ;;; вызвана функция get_bot_answer_chat_state
+2023-09-24 17:12:54,903 ;;; INFO ;;; функция get_bot_answer_chat_state вернула None
+2023-09-24 17:12:55,568 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 17:12:57,194 ;;; INFO ;;; функция send_message_bot вернула 114
+2023-09-24 17:12:57,195 ;;; INFO ;;; вызвана функция get_answer_bot
+2023-09-24 17:12:57,372 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 17:12:59,571 ;;; WARNING ;;; [my_account_adam] Waiting for 28 seconds before continuing (required by "messages.GetHistory")
+2023-09-24 17:13:30,992 ;;; WARNING ;;; [my_account_adam] Waiting for 28 seconds before continuing (required by "messages.GetHistory")
+2023-09-24 17:13:37,393 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 17:13:59,067 ;;; INFO ;;; функция get_answer_bot вернула Описание проблемы: Ваш вопрос связан с проверкой и переподключением при обрыве связи Континента Ап в системе ГосЭДО.  Наблюдаемые симптомы: Вы сообщили, что подключение было восстановлено, но вам необходима команда для проверки и переподключения в случае обрыва связи.  Вероятные причины: 1. Обрыв связи может быть вызван различными причинами, включая проблемы с сетевым оборудованием, проблемы с провайдером интернет-услуг или проблемы на стороне сервера.  Предложения по устранению проблемы : 1. Для проверки связи вы можете использовать команду: cts show stats. Эта команда покажет статистику соединения с сервером. 2. Если вы обнаружите, что связь оборвана, вы можете использовать команду для переподключения: /usr/share/cts/bin/cts connect -profile gosedo -pass Aa123456! 3. Для автоматического переподключения при обрыве связи, вы можете добавить эту команду в автозагрузку ОС, используя следующую команду (без root): echo "* * * * * $USER /usr/share/cts/bin/cts connect -profile gosedo -pass Aa123456!" | sudo tee -a /etc/crontab  Предложения по диагностике: 1. Если проблема с обрывом связи продолжается, рекомендуется провести диагностику сетевого оборудования и связаться с провайдером интернет-услуг. 2. Если проблема не устраняется, рекомендуется обратиться в службу технической поддержки ГосЭДО для получения дополнительной помощи.
+2023-09-24 17:13:59,067 ;;; INFO ;;; Вызвана функция send_info_to_operators с юзернеймом -1001660039773
+2023-09-24 17:15:08,692 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operator @aleksei_lsemenov
+2023-09-24 17:15:08,693 ;;; INFO ;;; вызвана функция set_operator с id: ['@aleksei_lsemenov']
+2023-09-24 17:15:21,111 ;;; INFO ;;; сработал group_message_handler на сообщение: ————————————————operator
+2023-09-24 17:15:21,111 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 17:15:21,113 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 17:15:21,114 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 17:15:21,114 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 17:15:21,115 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 17:15:21,116 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 17:15:29,587 ;;; INFO ;;; сработал private_message_handler на сообщение: /remove_operator @aleksei_lsemenov
+2023-09-24 17:15:29,588 ;;; INFO ;;; вызвана функция remove_operator с юзернеймами: ['@aleksei_lsemenov']
+2023-09-24 17:15:40,521 ;;; INFO ;;; сработал group_message_handler на сообщение: добрый день!
+2023-09-24 17:15:40,521 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 17:15:40,523 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 17:15:40,525 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 17:15:40,525 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 17:15:40,527 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 17:15:40,527 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 17:15:40,528 ;;; INFO ;;; функция get_chat_state вернула Operator
+2023-09-24 17:15:40,529 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 17:15:40,530 ;;; INFO ;;; вызвана функция timer_manager
+2023-09-24 17:15:40,692 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 17:15:40,694 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 17:15:40,695 ;;; INFO ;;; вызвана функция timer_iteration
+2023-09-24 17:15:40,871 ;;; INFO ;;; вызвана функция waiting_for_set_event с чат айди: -1001965935676
+2023-09-24 17:16:41,092 ;;; INFO ;;; функция timer_iteration вернула [False, True]
+2023-09-24 17:16:41,093 ;;; INFO ;;; В чате ГосЭДО ДСП: Люблино работаем нужна классификация
+2023-09-24 17:16:41,093 ;;; INFO ;;; вызвана функция get_user_messages
+2023-09-24 17:16:41,407 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 17:16:41,408 ;;; INFO ;;; функция get_user_messages вернула ['добрый день!\n\n', False]
+2023-09-24 17:16:41,408 ;;; INFO ;;; вызвана функция num_tokens_from_string
+2023-09-24 17:16:41,409 ;;; INFO ;;; функция num_tokens_from_string вернула 7
+2023-09-24 17:16:41,409 ;;; INFO ;;; вызвана функция get_msg_by_id
+2023-09-24 17:16:41,540 ;;; INFO ;;; вызвана функция is_simple_media
+2023-09-24 17:16:41,540 ;;; INFO ;;; сработала функция discussion_classifier
+2023-09-24 17:16:42,349 ;;; INFO ;;; message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=534 request_id=1eab19d0b6a6c1496c657dd98fe5b5b9 response_code=200
+2023-09-24 17:16:42,350 ;;; INFO ;;; функция discussion_classifier вернула 0
+2023-09-24 17:16:42,350 ;;; INFO ;;; содержимоме user_messages добрый день!
+
+ <class 'str'> 
+2023-09-24 17:16:42,351 ;;; INFO ;;; содержимоме user_messages[0] д <class 'str'> 
+2023-09-24 17:16:42,351 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 17:17:28,528 ;;; INFO ;;; Stop signal received (SIGTERM). Exiting...
+2023-09-24 17:17:29,086 ;;; INFO ;;; Stopped 16 HandlerTasks
+2023-09-24 17:17:29,087 ;;; INFO ;;; PingTask stopped
+2023-09-24 17:17:29,088 ;;; INFO ;;; Disconnected
+2023-09-24 17:17:29,088 ;;; INFO ;;; NetworkTask stopped
+2023-09-24 17:17:29,089 ;;; INFO ;;; Session stopped
+2023-09-24 17:18:27,895 ;;; INFO ;;; запуск бота
+2023-09-24 17:18:28,029 ;;; INFO ;;; Connecting...
+2023-09-24 17:18:28,032 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 17:18:28,033 ;;; INFO ;;; NetworkTask started
+2023-09-24 17:18:28,345 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 17:18:28,346 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 17:18:28,346 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-09-24 17:18:28,346 ;;; INFO ;;; Session started
+2023-09-24 17:18:28,349 ;;; INFO ;;; PingTask started
+2023-09-24 17:18:30,465 ;;; INFO ;;; Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-24 17:18:30,465 ;;; INFO ;;; NumExpr defaulting to 8 threads.
+2023-09-24 17:18:30,829 ;;; INFO ;;; [my_account_adam] [LOAD] MessageHandler("private_message_handler") in group 0 from "plugins.handlers"
+2023-09-24 17:18:30,830 ;;; INFO ;;; [my_account_adam] [LOAD] MessageHandler("group_message_handler") in group 0 from "plugins.handlers"
+2023-09-24 17:18:30,830 ;;; INFO ;;; [my_account_adam] [LOAD] RawUpdateHandler("raw_updates_handler") in group 0 from "plugins.handlers"
+2023-09-24 17:18:30,831 ;;; INFO ;;; [my_account_adam] Successfully loaded 3 plugins from "plugins"
+2023-09-24 17:18:30,831 ;;; INFO ;;; Started 16 HandlerTasks
+2023-09-24 17:18:57,599 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operators_chat https://t.me/+DOeePhU57CVmZDAy
+2023-09-24 17:18:57,762 ;;; INFO ;;; вызвана функция set_operator_chat с чат id: -1001660039773 и юзером None
+2023-09-24 17:19:07,631 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operator @aleksei_lsemenov
+2023-09-24 17:19:07,632 ;;; INFO ;;; вызвана функция set_operator с id: ['@aleksei_lsemenov']
+2023-09-24 17:19:15,341 ;;; INFO ;;; сработал group_message_handler на сообщение: ————————————————operator
+2023-09-24 17:19:15,341 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 17:19:15,343 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 17:19:15,344 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 17:19:15,345 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 17:19:15,346 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 17:19:15,346 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 17:19:29,318 ;;; INFO ;;; сработал private_message_handler на сообщение: /remove_operator @aleksei_lsemenov
+2023-09-24 17:19:29,318 ;;; INFO ;;; вызвана функция remove_operator с юзернеймами: ['@aleksei_lsemenov']
+2023-09-24 17:19:39,472 ;;; INFO ;;; сработал group_message_handler на сообщение: обрый день! Проверяем.
+2023-09-24 17:19:39,472 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 17:19:39,474 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 17:19:39,475 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 17:19:39,476 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 17:19:39,477 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 17:19:39,478 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 17:19:39,479 ;;; INFO ;;; функция get_chat_state вернула Operator
+2023-09-24 17:19:39,479 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 17:19:39,481 ;;; INFO ;;; вызвана функция timer_manager
+2023-09-24 17:19:39,577 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 17:19:39,579 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 17:19:39,579 ;;; INFO ;;; вызвана функция timer_iteration
+2023-09-24 17:19:39,682 ;;; INFO ;;; вызвана функция waiting_for_set_event с чат айди: -1001965935676
+2023-09-24 17:19:44,398 ;;; INFO ;;; сработал group_message_handler на сообщение: Подключе восстановлено.
+2023-09-24 17:19:44,399 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 17:19:44,401 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 17:19:44,403 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 17:19:44,403 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 17:19:44,405 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 17:19:44,405 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 17:19:44,407 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 17:19:44,408 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 17:19:48,721 ;;; INFO ;;; сработал group_message_handler на сообщение: Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап
+2023-09-24 17:19:48,722 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 17:19:48,723 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 17:19:48,725 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 17:19:48,725 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 17:19:48,726 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 17:19:48,727 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 17:19:48,728 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 17:19:48,729 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 17:20:39,706 ;;; INFO ;;; функция timer_iteration вернула [False, True]
+2023-09-24 17:20:39,706 ;;; INFO ;;; В чате ГосЭДО ДСП: Люблино работаем нужна классификация
+2023-09-24 17:20:39,707 ;;; INFO ;;; вызвана функция get_user_messages
+2023-09-24 17:20:40,072 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 17:20:40,072 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 17:20:40,072 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 17:20:40,073 ;;; INFO ;;; функция get_user_messages вернула ['обрый день! Проверяем.\n\nПодключе восстановлено.\n\nПодскажите команду  для проверки и  переподключения при обрыве связи Континента Ап\n\n', False]
+2023-09-24 17:20:40,073 ;;; INFO ;;; вызвана функция num_tokens_from_string
+2023-09-24 17:20:42,569 ;;; INFO ;;; функция num_tokens_from_string вернула 54
+2023-09-24 17:20:42,570 ;;; INFO ;;; вызвана функция get_msg_by_id
+2023-09-24 17:20:42,760 ;;; INFO ;;; вызвана функция is_simple_media
+2023-09-24 17:20:42,761 ;;; INFO ;;; сработала функция discussion_classifier
+2023-09-24 17:20:44,312 ;;; INFO ;;; message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=428 request_id=6d16bb5756f53fa2e82cfed508842eed response_code=200
+2023-09-24 17:20:44,314 ;;; INFO ;;; сработала функция discussion_classifier для обрый день! Проверяем.
+
+Подключе восстановлено.
+
+Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап
+
+ : 1
+2023-09-24 17:20:44,314 ;;; INFO ;;; содержимоме user_messages обрый день! Проверяем.
+
+Подключе восстановлено.
+
+Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап
+
+ <class 'str'> 
+2023-09-24 17:20:44,315 ;;; INFO ;;; содержимоме user_messages[0] о <class 'str'> 
+2023-09-24 17:20:44,315 ;;; INFO ;;; содержимоме replicas  ['обрый день! Проверяем.', 'Подключе восстановлено.', 'Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап', '']
+2023-09-24 17:20:44,321 ;;; INFO ;;; содержимоме filtered_replicas  ['обрый день! Проверяем.', 'Подключе восстановлено.', 'Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап', '']
+2023-09-24 17:20:44,321 ;;; INFO ;;; содержимое новго  user_messages обрый день! Проверяем. Подключе восстановлено. Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап 
+2023-09-24 17:20:44,321 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Waiting_155
+2023-09-24 17:20:44,323 ;;; INFO ;;; В чате <a href="">ГосЭДО ДСП: Люблино работаем</a>  пользователю требуется помощь:
+обрый день! Проверяем. Подключе восстановлено. Подскажите команду  для проверки и  переподключения при обрыве связи Континента Ап 
+
+2023-09-24 17:20:44,324 ;;; INFO ;;; вызвана функция send_message_bot
+2023-09-24 17:20:44,324 ;;; INFO ;;; вызвана функция get_bot_answer_chat_state
+2023-09-24 17:20:44,325 ;;; INFO ;;; функция get_bot_answer_chat_state вернула None
+2023-09-24 17:20:45,046 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 17:20:46,778 ;;; INFO ;;; функция send_message_bot вернула 129
+2023-09-24 17:20:46,778 ;;; INFO ;;; вызвана функция get_answer_bot
+2023-09-24 17:20:47,102 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 17:20:50,819 ;;; WARNING ;;; [my_account_adam] Waiting for 27 seconds before continuing (required by "messages.GetHistory")
+2023-09-24 17:21:20,973 ;;; WARNING ;;; [my_account_adam] Waiting for 28 seconds before continuing (required by "messages.GetHistory")
+2023-09-24 17:21:28,627 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 17:21:49,070 ;;; INFO ;;; функция get_answer_bot вернула Описание проблемы: Ваш вопрос связан с проверкой и восстановлением связи в системе Континент АП при ее обрыве.  Наблюдаемые симптомы: Вы сообщили, что подключение было восстановлено, но хотите знать, как проверить связь и как переподключиться в случае обрыва связи.  Вероятные причины: Обрыв связи может быть вызван различными причинами, включая проблемы с сетевым оборудованием, проблемы с интернет-провайдером или проблемы на стороне сервера.  Предложения по устранению проблемы : 1. Для проверки связи вы можете использовать команду: cts show stats. Эта команда покажет статистику соединения с сервером. 2. Если связь обрывается, вы можете попробовать переподключиться, используя команду: /usr/share/cts/bin/cts connect -profile gosedo -pass Aa123456!  Предложения по диагностике: 1. Если проблема с обрывом связи продолжается, рекомендуется проверить сетевое оборудование и связаться с вашим интернет-провайдером для проверки качества соединения. 2. Также может быть полезно проверить логи системы на наличие сообщений об ошибках, связанных с сетью или программным обеспечением Континент АП.  Если информации недостаточно или проблема не устраняется, рекомендуется обратиться в службу технической поддержки ГосЭДО для получения дополнительной помощи.
+2023-09-24 17:21:49,070 ;;; INFO ;;; Вызвана функция send_info_to_operators с юзернеймом -1001660039773
+2023-09-24 18:02:46,344 ;;; INFO ;;; NetworkTask stopped
+2023-09-24 18:02:46,345 ;;; INFO ;;; PingTask stopped
+2023-09-24 18:02:46,345 ;;; INFO ;;; Disconnected
+2023-09-24 18:02:46,346 ;;; INFO ;;; Session stopped
+2023-09-24 18:02:46,346 ;;; INFO ;;; Connecting...
+2023-09-24 18:02:46,348 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 18:02:46,348 ;;; INFO ;;; NetworkTask started
+2023-09-24 18:02:46,676 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 18:02:46,677 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 18:02:46,677 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-09-24 18:02:46,677 ;;; INFO ;;; Session started
+2023-09-24 18:02:46,678 ;;; INFO ;;; PingTask started
+2023-09-24 18:04:45,948 ;;; INFO ;;; Stop signal received (SIGTERM). Exiting...
+2023-09-24 18:04:46,816 ;;; INFO ;;; Stopped 16 HandlerTasks
+2023-09-24 18:04:46,817 ;;; INFO ;;; PingTask stopped
+2023-09-24 18:04:46,818 ;;; INFO ;;; Disconnected
+2023-09-24 18:04:46,818 ;;; INFO ;;; NetworkTask stopped
+2023-09-24 18:04:46,819 ;;; INFO ;;; Session stopped
+2023-09-24 18:05:17,737 ;;; INFO ;;; запуск бота
+2023-09-24 18:05:17,872 ;;; INFO ;;; Connecting...
+2023-09-24 18:05:17,876 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 18:05:17,877 ;;; INFO ;;; NetworkTask started
+2023-09-24 18:05:18,095 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 18:05:18,096 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 18:05:18,096 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-09-24 18:05:18,097 ;;; INFO ;;; Session started
+2023-09-24 18:05:18,099 ;;; INFO ;;; PingTask started
+2023-09-24 18:05:19,858 ;;; INFO ;;; Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-24 18:05:19,859 ;;; INFO ;;; NumExpr defaulting to 8 threads.
+2023-09-24 18:05:22,990 ;;; INFO ;;; запуск бота
+2023-09-24 18:05:23,137 ;;; INFO ;;; Connecting...
+2023-09-24 18:05:23,140 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 18:05:23,141 ;;; INFO ;;; NetworkTask started
+2023-09-24 18:05:23,367 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 18:05:23,368 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 18:05:23,368 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-09-24 18:05:23,369 ;;; INFO ;;; Session started
+2023-09-24 18:05:23,371 ;;; INFO ;;; PingTask started
+2023-09-24 18:05:25,213 ;;; INFO ;;; Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-24 18:05:25,214 ;;; INFO ;;; NumExpr defaulting to 8 threads.
+2023-09-24 18:05:28,528 ;;; INFO ;;; запуск бота
+2023-09-24 18:05:28,693 ;;; INFO ;;; Connecting...
+2023-09-24 18:05:28,696 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 18:05:28,698 ;;; INFO ;;; NetworkTask started
+2023-09-24 18:05:28,907 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 18:05:28,908 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 18:05:28,908 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-09-24 18:05:28,909 ;;; INFO ;;; Session started
+2023-09-24 18:05:28,911 ;;; INFO ;;; PingTask started
+2023-09-24 18:05:31,060 ;;; INFO ;;; Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-24 18:05:31,061 ;;; INFO ;;; NumExpr defaulting to 8 threads.
+2023-09-24 18:05:33,596 ;;; INFO ;;; запуск бота
+2023-09-24 18:05:33,739 ;;; INFO ;;; Connecting...
+2023-09-24 18:05:33,741 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 18:05:33,743 ;;; INFO ;;; NetworkTask started
+2023-09-24 18:05:33,952 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 18:05:33,952 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 18:05:33,953 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-09-24 18:05:33,953 ;;; INFO ;;; Session started
+2023-09-24 18:05:33,955 ;;; INFO ;;; PingTask started
+2023-09-24 18:05:35,718 ;;; INFO ;;; Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-24 18:05:35,718 ;;; INFO ;;; NumExpr defaulting to 8 threads.
+2023-09-24 18:05:38,393 ;;; INFO ;;; запуск бота
+2023-09-24 18:05:38,603 ;;; INFO ;;; Connecting...
+2023-09-24 18:05:38,613 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 18:05:38,614 ;;; INFO ;;; NetworkTask started
+2023-09-24 18:05:38,866 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 18:05:38,866 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 18:05:38,867 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-09-24 18:05:38,867 ;;; INFO ;;; Session started
+2023-09-24 18:05:38,869 ;;; INFO ;;; PingTask started
+2023-09-24 18:05:40,608 ;;; INFO ;;; Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-24 18:05:40,608 ;;; INFO ;;; NumExpr defaulting to 8 threads.
+2023-09-24 18:05:44,108 ;;; INFO ;;; запуск бота
+2023-09-24 18:05:44,248 ;;; INFO ;;; Connecting...
+2023-09-24 18:05:44,251 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 18:05:44,252 ;;; INFO ;;; NetworkTask started
+2023-09-24 18:05:44,467 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 18:05:44,467 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 18:05:44,468 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-09-24 18:05:44,468 ;;; INFO ;;; Session started
+2023-09-24 18:05:44,470 ;;; INFO ;;; PingTask started
+2023-09-24 18:05:46,151 ;;; INFO ;;; Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-24 18:05:46,151 ;;; INFO ;;; NumExpr defaulting to 8 threads.
+2023-09-24 18:05:51,104 ;;; INFO ;;; запуск бота
+2023-09-24 18:05:51,247 ;;; INFO ;;; Connecting...
+2023-09-24 18:05:51,249 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 18:05:51,251 ;;; INFO ;;; NetworkTask started
+2023-09-24 18:05:51,479 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 18:05:51,479 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 18:05:51,480 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-09-24 18:05:51,480 ;;; INFO ;;; Session started
+2023-09-24 18:05:51,482 ;;; INFO ;;; PingTask started
+2023-09-24 18:05:53,280 ;;; INFO ;;; Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-24 18:05:53,280 ;;; INFO ;;; NumExpr defaulting to 8 threads.
+2023-09-24 18:06:01,559 ;;; INFO ;;; запуск бота
+2023-09-24 18:06:01,699 ;;; INFO ;;; Connecting...
+2023-09-24 18:06:01,702 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 18:06:01,703 ;;; INFO ;;; NetworkTask started
+2023-09-24 18:06:01,928 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 18:06:01,929 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 18:06:01,929 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-09-24 18:06:01,930 ;;; INFO ;;; Session started
+2023-09-24 18:06:01,931 ;;; INFO ;;; PingTask started
+2023-09-24 18:06:03,802 ;;; INFO ;;; Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-24 18:06:03,803 ;;; INFO ;;; NumExpr defaulting to 8 threads.
+2023-09-24 18:06:18,394 ;;; INFO ;;; запуск бота
+2023-09-24 18:06:18,527 ;;; INFO ;;; Connecting...
+2023-09-24 18:06:18,530 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 18:06:18,531 ;;; INFO ;;; NetworkTask started
+2023-09-24 18:06:18,863 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 18:06:18,864 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 18:06:18,864 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-09-24 18:06:18,864 ;;; INFO ;;; Session started
+2023-09-24 18:06:18,866 ;;; INFO ;;; PingTask started
+2023-09-24 18:06:20,714 ;;; INFO ;;; Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-24 18:06:20,715 ;;; INFO ;;; NumExpr defaulting to 8 threads.
+2023-09-24 18:06:48,044 ;;; INFO ;;; запуск бота
+2023-09-24 18:06:48,175 ;;; INFO ;;; Connecting...
+2023-09-24 18:06:48,178 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 18:06:48,179 ;;; INFO ;;; NetworkTask started
+2023-09-24 18:06:48,390 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 18:06:48,390 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 18:06:48,391 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-09-24 18:06:48,391 ;;; INFO ;;; Session started
+2023-09-24 18:06:48,392 ;;; INFO ;;; PingTask started
+2023-09-24 18:06:50,095 ;;; INFO ;;; Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-24 18:06:50,096 ;;; INFO ;;; NumExpr defaulting to 8 threads.
+2023-09-24 18:07:43,222 ;;; INFO ;;; запуск бота
+2023-09-24 18:07:43,351 ;;; INFO ;;; Connecting...
+2023-09-24 18:07:43,354 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 18:07:43,356 ;;; INFO ;;; NetworkTask started
+2023-09-24 18:07:43,626 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 18:07:43,626 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 18:07:43,627 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-09-24 18:07:43,627 ;;; INFO ;;; Session started
+2023-09-24 18:07:43,629 ;;; INFO ;;; PingTask started
+2023-09-24 18:07:45,430 ;;; INFO ;;; Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-24 18:07:45,431 ;;; INFO ;;; NumExpr defaulting to 8 threads.
+2023-09-24 18:08:46,917 ;;; INFO ;;; запуск бота
+2023-09-24 18:08:47,051 ;;; INFO ;;; Connecting...
+2023-09-24 18:08:47,054 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-09-24 18:08:47,055 ;;; INFO ;;; NetworkTask started
+2023-09-24 18:08:47,265 ;;; INFO ;;; Session initialized: Layer 158
+2023-09-24 18:08:47,265 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-09-24 18:08:47,265 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-09-24 18:08:47,266 ;;; INFO ;;; Session started
+2023-09-24 18:08:47,267 ;;; INFO ;;; PingTask started
+2023-09-24 18:08:49,100 ;;; INFO ;;; Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-24 18:08:49,100 ;;; INFO ;;; NumExpr defaulting to 8 threads.
+2023-09-24 18:08:49,462 ;;; INFO ;;; [my_account_adam] [LOAD] MessageHandler("private_message_handler") in group 0 from "plugins.handlers"
+2023-09-24 18:08:49,463 ;;; INFO ;;; [my_account_adam] [LOAD] MessageHandler("group_message_handler") in group 0 from "plugins.handlers"
+2023-09-24 18:08:49,463 ;;; INFO ;;; [my_account_adam] [LOAD] RawUpdateHandler("raw_updates_handler") in group 0 from "plugins.handlers"
+2023-09-24 18:08:49,463 ;;; INFO ;;; [my_account_adam] Successfully loaded 3 plugins from "plugins"
+2023-09-24 18:08:49,464 ;;; INFO ;;; Started 16 HandlerTasks
+2023-09-24 18:08:55,713 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operators_chat https://t.me/+DOeePhU57CVmZDAy
+2023-09-24 18:08:56,158 ;;; INFO ;;; вызвана функция set_operator_chat с чат id: -1001660039773 и юзером None
+2023-09-24 18:09:03,169 ;;; INFO ;;; сработал private_message_handler на сообщение: /set_operator @aleksei_lsemenov
+2023-09-24 18:09:03,169 ;;; INFO ;;; вызвана функция set_operator с id: ['@aleksei_lsemenov']
+2023-09-24 18:09:11,040 ;;; INFO ;;; сработал group_message_handler на сообщение: ————————————————operator
+2023-09-24 18:09:11,040 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 18:09:11,042 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 18:09:11,044 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 18:09:11,044 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 18:09:11,046 ;;; INFO ;;; функция is_operator вернула 1
+2023-09-24 18:09:11,047 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Operator
+2023-09-24 18:09:22,533 ;;; INFO ;;; сработал private_message_handler на сообщение: /remove_operator @aleksei_lsemenov
+2023-09-24 18:09:22,534 ;;; INFO ;;; вызвана функция remove_operator с юзернеймами: ['@aleksei_lsemenov']
+2023-09-24 18:09:37,312 ;;; INFO ;;; сработал group_message_handler на сообщение: Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил
+2023-09-24 18:09:37,313 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 18:09:37,314 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 18:09:37,316 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 18:09:37,316 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 18:09:37,317 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 18:09:37,318 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 18:09:37,319 ;;; INFO ;;; функция get_chat_state вернула Operator
+2023-09-24 18:09:37,320 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 18:09:37,321 ;;; INFO ;;; вызвана функция timer_manager
+2023-09-24 18:09:37,400 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 18:09:37,402 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 18:09:37,402 ;;; INFO ;;; вызвана функция timer_iteration
+2023-09-24 18:09:37,524 ;;; INFO ;;; вызвана функция waiting_for_set_event с чат айди: -1001965935676
+2023-09-24 18:09:43,161 ;;; INFO ;;; сработал group_message_handler на сообщение: А передавать конкретно raw переписку не надо
+2023-09-24 18:09:43,162 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 18:09:43,163 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 18:09:43,165 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 18:09:43,165 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 18:09:43,167 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 18:09:43,167 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 18:09:43,169 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 18:09:43,169 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 18:09:47,125 ;;; INFO ;;; сработал group_message_handler на сообщение: А как с вопросами, на которые успели дать ответ? Вот например вопрос, ответь:
+2023-09-24 18:09:47,126 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 18:09:47,128 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 18:09:47,129 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 18:09:47,129 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 18:09:47,131 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 18:09:47,131 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 18:09:47,132 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 18:09:47,132 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 18:09:51,025 ;;; INFO ;;; сработал group_message_handler на сообщение: Какой командой посмотреть содержимое каталога в астра линукс?
+2023-09-24 18:09:51,025 ;;; INFO ;;; вызвана функция check_chat
+2023-09-24 18:09:51,027 ;;; INFO ;;; вызвана функция get_operators_chat_usernames
+2023-09-24 18:09:51,029 ;;; INFO ;;; функция get_operators_chat_usernames вернула ['-1001660039773']
+2023-09-24 18:09:51,029 ;;; INFO ;;; вызвана функция is_operator с юзернеймом: @aleksei_lsemenov
+2023-09-24 18:09:51,031 ;;; INFO ;;; функция is_operator вернула 0
+2023-09-24 18:09:51,031 ;;; INFO ;;; вызвана функция get_chat_state
+2023-09-24 18:09:51,032 ;;; INFO ;;; функция get_chat_state вернула User
+2023-09-24 18:09:51,033 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния User
+2023-09-24 18:10:37,445 ;;; INFO ;;; функция timer_iteration вернула [False, True]
+2023-09-24 18:10:37,446 ;;; INFO ;;; В чате ГосЭДО ДСП: Люблино работаем нужна классификация
+2023-09-24 18:10:37,446 ;;; INFO ;;; вызвана функция get_user_messages
+2023-09-24 18:10:37,834 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 18:10:37,835 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 18:10:37,835 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 18:10:37,835 ;;; INFO ;;; вызвана функция get_info_about_message
+2023-09-24 18:10:37,836 ;;; INFO ;;; функция get_user_messages вернула ['Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил\n\nА передавать конкретно raw переписку не надо\n\nА как с вопросами, на которые успели дать ответ? Вот например вопрос, ответь:\n\nКакой командой посмотреть содержимое каталога в астра линукс?\n\n', False]
+2023-09-24 18:10:37,836 ;;; INFO ;;; вызвана функция num_tokens_from_string
+2023-09-24 18:10:43,153 ;;; INFO ;;; функция num_tokens_from_string вернула 118
+2023-09-24 18:10:43,154 ;;; INFO ;;; вызвана функция get_msg_by_id
+2023-09-24 18:10:43,321 ;;; INFO ;;; вызвана функция is_simple_media
+2023-09-24 18:10:43,321 ;;; INFO ;;; сработала функция discussion_classifier
+2023-09-24 18:10:44,372 ;;; INFO ;;; message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=318 request_id=797be5b01cf70e376363743a2a68bfb5 response_code=200
+2023-09-24 18:10:44,374 ;;; INFO ;;; сработала функция discussion_classifier для Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил
+
+А передавать конкретно raw переписку не надо
+
+А как с вопросами, на которые успели дать ответ? Вот например вопрос, ответь:
+
+Какой командой посмотреть содержимое каталога в астра линукс?
+
+ : 1
+2023-09-24 18:10:44,374 ;;; INFO ;;; содержимоме user_messages Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил
+
+А передавать конкретно raw переписку не надо
+
+А как с вопросами, на которые успели дать ответ? Вот например вопрос, ответь:
+
+Какой командой посмотреть содержимое каталога в астра линукс?
+
+ <class 'str'> 
+2023-09-24 18:10:44,375 ;;; INFO ;;; содержимоме user_messages[0] Р <class 'str'> 
+2023-09-24 18:10:44,375 ;;; INFO ;;; содержимоме replicas  ['Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил', 'А передавать конкретно raw переписку не надо', 'А как с вопросами, на которые успели дать ответ? Вот например вопрос, ответь:', 'Какой командой посмотреть содержимое каталога в астра линукс?', '']
+2023-09-24 18:10:44,375 ;;; INFO ;;; сработала функция discussion_classifier
+2023-09-24 18:10:45,369 ;;; INFO ;;; message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=176 request_id=f70ed23b72192b2afa0d92fd712bb9cc response_code=200
+2023-09-24 18:10:45,371 ;;; INFO ;;; сработала функция discussion_classifier для Работает. Надо теперь сделать чтобы поменьше лишних слов писал. А то вопрос трижды повторил : 0
+2023-09-24 18:10:45,371 ;;; INFO ;;; сработала функция discussion_classifier
+2023-09-24 18:10:46,423 ;;; INFO ;;; message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=288 request_id=6a06b5835ea3f56b2a842455ccde86a6 response_code=200
+2023-09-24 18:10:46,424 ;;; INFO ;;; сработала функция discussion_classifier для А передавать конкретно raw переписку не надо : 0
+2023-09-24 18:10:46,424 ;;; INFO ;;; сработала функция discussion_classifier
+2023-09-24 18:10:47,948 ;;; INFO ;;; message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=549 request_id=e1d00d58bba7528620e097deff82beac response_code=200
+2023-09-24 18:10:47,950 ;;; INFO ;;; сработала функция discussion_classifier для А как с вопросами, на которые успели дать ответ? Вот например вопрос, ответь: : 0
+2023-09-24 18:10:47,950 ;;; INFO ;;; сработала функция discussion_classifier
+2023-09-24 18:10:49,964 ;;; INFO ;;; message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=898 request_id=408af4899059ac914783e41eeec78492 response_code=200
+2023-09-24 18:10:49,965 ;;; INFO ;;; сработала функция discussion_classifier для Какой командой посмотреть содержимое каталога в астра линукс? : 1
+2023-09-24 18:10:49,966 ;;; INFO ;;; сработала функция discussion_classifier
+2023-09-24 18:10:51,034 ;;; INFO ;;; message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=571 request_id=05f501ee3afab6e61edd1fee210fc005 response_code=200
+2023-09-24 18:10:51,036 ;;; INFO ;;; сработала функция discussion_classifier для  : 0
+2023-09-24 18:10:51,036 ;;; INFO ;;; содержимоме filtered_replicas  ['Какой командой посмотреть содержимое каталога в астра линукс?']
+2023-09-24 18:10:51,037 ;;; INFO ;;; содержимое новго  user_messages Какой командой посмотреть содержимое каталога в астра линукс?
+2023-09-24 18:10:51,037 ;;; INFO ;;; вызвана функция set_chat_state для установки состояния Waiting_159
+2023-09-24 18:10:51,039 ;;; INFO ;;; В чате <a href="">ГосЭДО ДСП: Люблино работаем</a>  пользователю требуется помощь:
+Какой командой посмотреть содержимое каталога в астра линукс?
+
+2023-09-24 18:10:51,040 ;;; INFO ;;; вызвана функция send_message_bot
+2023-09-24 18:10:51,041 ;;; INFO ;;; вызвана функция get_bot_answer_chat_state
+2023-09-24 18:10:51,043 ;;; INFO ;;; функция get_bot_answer_chat_state вернула None
+2023-09-24 18:10:51,713 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 18:10:53,402 ;;; INFO ;;; функция send_message_bot вернула 142
+2023-09-24 18:10:53,402 ;;; INFO ;;; вызвана функция get_answer_bot
+2023-09-24 18:10:53,572 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 18:10:55,642 ;;; WARNING ;;; [my_account_adam] Waiting for 29 seconds before continuing (required by "messages.GetHistory")
+2023-09-24 18:11:06,114 ;;; INFO ;;; сработал private_message_handler на сообщение от бота отвечальщика
+2023-09-24 18:11:24,769 ;;; INFO ;;; функция get_answer_bot вернула Описание вопроса: Пользователь хочет узнать, какой командой можно просмотреть содержимое каталога в операционной системе Astra Linux.  Ответ на вопрос: - Для просмотра содержимого каталога в Astra Linux, как и в большинстве дистрибутивов Linux, используется команда "ls". Эта команда выводит список файлов и подкаталогов в текущем каталоге. Если вы хотите просмотреть содержимое другого каталога, вы можете указать его как аргумент, например, "ls /var/log".
+2023-09-24 18:11:24,769 ;;; INFO ;;; Вызвана функция send_info_to_operators с юзернеймом -1001660039773
+2023-09-24 18:42:18,018 ;;; INFO ;;; Stop signal received (SIGTERM). Exiting...
+2023-09-24 18:42:20,261 ;;; INFO ;;; Stopped 16 HandlerTasks
+2023-09-24 18:42:20,262 ;;; INFO ;;; PingTask stopped
+2023-09-24 18:42:20,262 ;;; INFO ;;; Disconnected
+2023-09-24 18:42:20,262 ;;; INFO ;;; NetworkTask stopped
+2023-09-24 18:42:20,263 ;;; INFO ;;; Session stopped
+2023-10-04 08:03:18,410 ;;; INFO ;;; запуск бота
+2023-10-04 08:03:18,549 ;;; INFO ;;; Connecting...
+2023-10-04 08:03:18,558 ;;; INFO ;;; Connected! Production DC2 - IPv4
+2023-10-04 08:03:18,559 ;;; INFO ;;; NetworkTask started
+2023-10-04 08:03:18,770 ;;; INFO ;;; Session initialized: Layer 158
+2023-10-04 08:03:18,771 ;;; INFO ;;; Device: CPython 3.11.4 - Pyrogram 2.0.106
+2023-10-04 08:03:18,771 ;;; INFO ;;; System: Linux 5.15.90.1-microsoft-standard-WSL2 (en)
+2023-10-04 08:03:18,771 ;;; INFO ;;; Session started
+2023-10-04 08:03:18,773 ;;; INFO ;;; PingTask started
+2023-10-04 08:03:21,086 ;;; INFO ;;; Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-10-04 08:03:21,086 ;;; INFO ;;; NumExpr defaulting to 8 threads.
+2023-10-04 08:03:21,529 ;;; INFO ;;; [my_account_adam] [LOAD] MessageHandler("private_message_handler") in group 0 from "plugins.handlers"
+2023-10-04 08:03:21,529 ;;; INFO ;;; [my_account_adam] [LOAD] MessageHandler("group_message_handler") in group 0 from "plugins.handlers"
+2023-10-04 08:03:21,529 ;;; INFO ;;; [my_account_adam] [LOAD] RawUpdateHandler("raw_updates_handler") in group 0 from "plugins.handlers"
+2023-10-04 08:03:21,529 ;;; INFO ;;; [my_account_adam] Successfully loaded 3 plugins from "plugins"
+2023-10-04 08:03:21,530 ;;; INFO ;;; Started 16 HandlerTasks
+2023-10-04 08:04:04,511 ;;; INFO ;;; Stop signal received (SIGTERM). Exiting...
+2023-10-04 08:04:08,835 ;;; INFO ;;; Stopped 16 HandlerTasks
+2023-10-04 08:04:08,836 ;;; INFO ;;; PingTask stopped
+2023-10-04 08:04:08,837 ;;; INFO ;;; Disconnected
+2023-10-04 08:04:08,837 ;;; INFO ;;; NetworkTask stopped
+2023-10-04 08:04:08,838 ;;; INFO ;;; Session stopped

@@ -20,24 +20,22 @@
   "fiscalYearStartMonth": 0,
   "gnetId": 18700,
   "graphTooltip": 0,
-  "id": 7,
+  "id": 1,
   "links": [],
   "liveNow": false,
   "panels": [
     {
       "datasource": {
         "type": "loki",
-        "uid": "e285993b-e376-4cb3-a35f-820e85c11934"
+        "uid": "e03f896d-6f4b-4bea-8fe7-a75e98625a87"
       },
-      "description": "",
       "gridPos": {
-        "h": 7,
+        "h": 5,
         "w": 24,
         "x": 0,
         "y": 0
       },
-      "id": 1,
-      "maxDataPoints": 1000,
+      "id": 6,
       "options": {
         "dedupStrategy": "none",
         "enableLogDetails": true,
@@ -45,65 +43,29 @@
         "showCommonLabels": false,
         "showLabels": false,
         "showTime": false,
-        "sortOrder": "Ascending",
+        "sortOrder": "Descending",
         "wrapLogMessage": false
       },
+      "pluginVersion": "10.1.4",
       "targets": [
         {
           "datasource": {
             "type": "loki",
-            "uid": "e285993b-e376-4cb3-a35f-820e85c11934"
+            "uid": "e03f896d-6f4b-4bea-8fe7-a75e98625a87"
           },
-          "editorMode": "builder",
-          "expr": "{container_name=\"bot\"}",
+          "editorMode": "code",
+          "expr": "{compose_project=\"app\", container_name=~\"bot|db\"} |~ `ERROR|WARNING` ",
           "queryType": "range",
           "refId": "A"
         }
       ],
-      "title": "Support Bot logs",
+      "title": "Errors and Warnings",
       "type": "logs"
     },
     {
       "datasource": {
         "type": "loki",
-        "uid": "e285993b-e376-4cb3-a35f-820e85c11934"
-      },
-      "description": "",
-      "gridPos": {
-        "h": 7,
-        "w": 24,
-        "x": 0,
-        "y": 7
-      },
-      "id": 2,
-      "options": {
-        "dedupStrategy": "none",
-        "enableLogDetails": true,
-        "prettifyLogMessage": false,
-        "showCommonLabels": false,
-        "showLabels": false,
-        "showTime": false,
-        "sortOrder": "Ascending",
-        "wrapLogMessage": false
-      },
-      "targets": [
-        {
-          "datasource": {
-            "type": "loki",
-            "uid": "e285993b-e376-4cb3-a35f-820e85c11934"
-          },
-          "expr": "{container_name=\"db\"}",
-          "queryType": "range",
-          "refId": "A"
-        }
-      ],
-      "title": "Redis Database Logs",
-      "type": "logs"
-    },
-    {
-      "datasource": {
-        "type": "loki",
-        "uid": "e285993b-e376-4cb3-a35f-820e85c11934"
+        "uid": "e03f896d-6f4b-4bea-8fe7-a75e98625a87"
       },
       "fieldConfig": {
         "defaults": {
@@ -162,7 +124,7 @@
         "h": 6,
         "w": 24,
         "x": 0,
-        "y": 14
+        "y": 5
       },
       "id": 5,
       "options": {
@@ -181,10 +143,10 @@
         {
           "datasource": {
             "type": "loki",
-            "uid": "e285993b-e376-4cb3-a35f-820e85c11934"
+            "uid": "e03f896d-6f4b-4bea-8fe7-a75e98625a87"
           },
           "editorMode": "code",
-          "expr": "rate({compose_project=\"supportchatgptbot\", container_name=~\"bot|db\"} |~ `ERROR|WARNING` [1m])",
+          "expr": "rate({compose_project=\"app\", container_name=~\"bot|db|bot_moderator\"} |~ `ERROR|WARNING` [1m])",
           "queryType": "range",
           "refId": "A"
         }
@@ -195,14 +157,89 @@
     {
       "datasource": {
         "type": "loki",
-        "uid": "e285993b-e376-4cb3-a35f-820e85c11934"
+        "uid": "e03f896d-6f4b-4bea-8fe7-a75e98625a87"
       },
       "description": "",
       "gridPos": {
         "h": 7,
         "w": 24,
         "x": 0,
-        "y": 20
+        "y": 11
+      },
+      "id": 1,
+      "maxDataPoints": 1000,
+      "options": {
+        "dedupStrategy": "none",
+        "enableLogDetails": true,
+        "prettifyLogMessage": false,
+        "showCommonLabels": false,
+        "showLabels": false,
+        "showTime": false,
+        "sortOrder": "Ascending",
+        "wrapLogMessage": false
+      },
+      "targets": [
+        {
+          "datasource": {
+            "type": "loki",
+            "uid": "e03f896d-6f4b-4bea-8fe7-a75e98625a87"
+          },
+          "expr": "{container_name=\"bot\"}",
+          "queryType": "range",
+          "refId": "A"
+        }
+      ],
+      "title": "Support Bot logs",
+      "type": "logs"
+    },
+    {
+      "datasource": {
+        "type": "loki",
+        "uid": "e03f896d-6f4b-4bea-8fe7-a75e98625a87"
+      },
+      "description": "",
+      "gridPos": {
+        "h": 7,
+        "w": 24,
+        "x": 0,
+        "y": 18
+      },
+      "id": 2,
+      "options": {
+        "dedupStrategy": "none",
+        "enableLogDetails": true,
+        "prettifyLogMessage": false,
+        "showCommonLabels": false,
+        "showLabels": false,
+        "showTime": false,
+        "sortOrder": "Ascending",
+        "wrapLogMessage": false
+      },
+      "targets": [
+        {
+          "datasource": {
+            "type": "loki",
+            "uid": "e03f896d-6f4b-4bea-8fe7-a75e98625a87"
+          },
+          "expr": "{container_name=\"db\"}",
+          "queryType": "range",
+          "refId": "A"
+        }
+      ],
+      "title": "Redis Database Logs",
+      "type": "logs"
+    },
+    {
+      "datasource": {
+        "type": "loki",
+        "uid": "e03f896d-6f4b-4bea-8fe7-a75e98625a87"
+      },
+      "description": "",
+      "gridPos": {
+        "h": 7,
+        "w": 24,
+        "x": 0,
+        "y": 25
       },
       "id": 4,
       "options": {
@@ -219,9 +256,10 @@
         {
           "datasource": {
             "type": "loki",
-            "uid": "e285993b-e376-4cb3-a35f-820e85c11934"
+            "uid": "e03f896d-6f4b-4bea-8fe7-a75e98625a87"
           },
-          "expr": "{container_name=\"promtail\"}",
+          "editorMode": "builder",
+          "expr": "{container_name=\"bot_moderator\"}",
           "queryType": "range",
           "refId": "A"
         }
@@ -247,6 +285,6 @@
   "timezone": "",
   "title": "Docker Logs",
   "uid": "d1b29328-02cf-437d-a81e-1d2ac3c2075f",
-  "version": 11,
+  "version": 9,
   "weekStart": ""
 }

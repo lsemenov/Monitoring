@@ -90,7 +90,7 @@ services:
     logging:
       driver: loki
       options:
-        loki-url: "http://127.0.0.1:3100/loki/api/v1/push"
+        loki-url: "http://172.18.18.18:3100/loki/api/v1/push"
         mode: non-blocking
         max-buffer-size: 4m
         loki-retries: "1"
@@ -99,7 +99,8 @@ services:
     command:
       - '--config.file=/etc/loki/loki-config.yaml'
     networks:
-      - supportchatgptbot_botnet
+        supportchatgptbot_botnet:
+          ipv4_address: 172.18.18.18
     labels:
       org.label-schema.group: "monitoring for PK containers"
 
@@ -109,13 +110,13 @@ services:
     depends_on:
       - loki
     volumes:
-      - .var/log:/var/log
+      - ./var/log:/var/log
       - ./promtail:/etc/promtail
     restart: unless-stopped
     command:
         - '--config.file=/etc/promtail/promtail-config.yaml'
     networks:
-      - supportchatgptbot_botnet
+        - supportchatgptbot_botnet
     labels:
       org.label-schema.group: "monitoring for PK containers"
 
